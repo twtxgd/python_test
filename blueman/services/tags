@@ -1,0 +1,156 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AUDIO_SINK_SVCLASS_ID	AudioSink.py	/^from blueman.Sdp import AUDIO_SINK_SVCLASS_ID$/;"	i
+AUDIO_SOURCE_SVCLASS_ID	AudioSource.py	/^from blueman.Sdp import AUDIO_SOURCE_SVCLASS_ID$/;"	i
+Adapter	meta/SerialService.py	/^from blueman.bluez.Adapter import Adapter$/;"	i
+AudioSink	AudioSink.py	/^class AudioSink(Service):$/;"	c
+AudioSink	__init__.py	/^from blueman.services.AudioSink import AudioSink$/;"	i
+AudioSource	AudioSource.py	/^class AudioSource(Service):$/;"	c
+AudioSource	__init__.py	/^from blueman.services.AudioSource import AudioSource$/;"	i
+DBusException	meta/NetworkService.py	/^from dbus import DBusException$/;"	i
+DIALUP_NET_SVCLASS_ID	DialupNetwork.py	/^from blueman.Sdp import DIALUP_NET_SVCLASS_ID$/;"	i
+DialupNetwork	DialupNetwork.py	/^class DialupNetwork(SerialService):$/;"	c
+DialupNetwork	__init__.py	/^from blueman.services.DialupNetwork import DialupNetwork$/;"	i
+GN_SVCLASS_ID	GroupNetwork.py	/^from blueman.Sdp import GN_SVCLASS_ID$/;"	i
+GroupNetwork	GroupNetwork.py	/^class GroupNetwork(NetworkService):$/;"	c
+GroupNetwork	__init__.py	/^from blueman.services.GroupNetwork import GroupNetwork$/;"	i
+HANDSFREE_SVCLASS_ID	HandsfreeGateway.py	/^from blueman.Sdp import HANDSFREE_SVCLASS_ID$/;"	i
+HEADSET_SVCLASS_ID	Headset.py	/^from blueman.Sdp import HEADSET_SVCLASS_ID$/;"	i
+HID_SVCLASS_ID	Input.py	/^from blueman.Sdp import HID_SVCLASS_ID$/;"	i
+HandsfreeGateway	HandsfreeGateway.py	/^class HandsfreeGateway(Service):$/;"	c
+HandsfreeGateway	__init__.py	/^from blueman.services.HandsfreeGateway import HandsfreeGateway$/;"	i
+Headset	Headset.py	/^class Headset(Service):$/;"	c
+Headset	__init__.py	/^from blueman.services.Headset import Headset$/;"	i
+Input	Input.py	/^class Input(Service):$/;"	c
+Input	__init__.py	/^from blueman.services.Input import Input$/;"	i
+Mechanism	meta/SerialService.py	/^from blueman.main.Mechanism import Mechanism$/;"	i
+NAP_SVCLASS_ID	NetworkAccessPoint.py	/^from blueman.Sdp import NAP_SVCLASS_ID$/;"	i
+Network	meta/NetworkService.py	/^from blueman.bluez.Network import Network$/;"	i
+NetworkAccessPoint	NetworkAccessPoint.py	/^class NetworkAccessPoint(NetworkService):$/;"	c
+NetworkAccessPoint	__init__.py	/^from blueman.services.NetworkAccessPoint import NetworkAccessPoint$/;"	i
+NetworkService	GroupNetwork.py	/^from blueman.services.meta import NetworkService$/;"	i
+NetworkService	NetworkAccessPoint.py	/^from blueman.services.meta import NetworkService$/;"	i
+NetworkService	meta/NetworkService.py	/^class NetworkService(Service):$/;"	c
+NetworkService	meta/__init__.py	/^from blueman.services.meta.NetworkService import NetworkService$/;"	i
+SERIAL_PORT_SVCLASS_ID	SerialPort.py	/^from blueman.Sdp import SERIAL_PORT_SVCLASS_ID$/;"	i
+SerialPort	SerialPort.py	/^class SerialPort(SerialService):$/;"	c
+SerialPort	__init__.py	/^from blueman.services.SerialPort import SerialPort$/;"	i
+SerialService	DialupNetwork.py	/^from blueman.services.meta import SerialService$/;"	i
+SerialService	SerialPort.py	/^from blueman.services.meta import SerialService$/;"	i
+SerialService	meta/SerialService.py	/^class SerialService(Service):$/;"	c
+SerialService	meta/__init__.py	/^from blueman.services.meta.SerialService import SerialService$/;"	i
+Service	AudioSink.py	/^from blueman.Service import Service$/;"	i
+Service	AudioSource.py	/^from blueman.Service import Service$/;"	i
+Service	HandsfreeGateway.py	/^from blueman.Service import Service$/;"	i
+Service	Headset.py	/^from blueman.Service import Service$/;"	i
+Service	Input.py	/^from blueman.Service import Service$/;"	i
+Service	meta/NetworkService.py	/^from blueman.Service import Service$/;"	i
+Service	meta/SerialService.py	/^from blueman.Service import Service$/;"	i
+__description__	AudioSink.py	/^    __description__ = _("Allows to send audio to remote device")$/;"	v	class:AudioSink
+__description__	AudioSource.py	/^    __description__ = _("Allows to receive audio from remote device")$/;"	v	class:AudioSource
+__group__	AudioSink.py	/^    __group__ = 'audio'$/;"	v	class:AudioSink
+__group__	AudioSource.py	/^    __group__ = 'audio'$/;"	v	class:AudioSource
+__group__	DialupNetwork.py	/^    __group__ = 'serial'$/;"	v	class:DialupNetwork
+__group__	GroupNetwork.py	/^    __group__ = 'network'$/;"	v	class:GroupNetwork
+__group__	HandsfreeGateway.py	/^    __group__ = 'audio'$/;"	v	class:HandsfreeGateway
+__group__	Headset.py	/^    __group__ = 'audio'$/;"	v	class:Headset
+__group__	NetworkAccessPoint.py	/^    __group__ = 'network'$/;"	v	class:NetworkAccessPoint
+__group__	SerialPort.py	/^    __group__ = 'serial'$/;"	v	class:SerialPort
+__icon__	AudioSink.py	/^    __icon__ = "blueman-headset"$/;"	v	class:AudioSink
+__icon__	AudioSource.py	/^    __icon__ = "blueman-headset"$/;"	v	class:AudioSource
+__icon__	DialupNetwork.py	/^    __icon__ = "modem"$/;"	v	class:DialupNetwork
+__icon__	GroupNetwork.py	/^    __icon__ = "network-wireless"$/;"	v	class:GroupNetwork
+__icon__	HandsfreeGateway.py	/^    __icon__ = "blueman-handsfree"$/;"	v	class:HandsfreeGateway
+__icon__	Headset.py	/^    __icon__ = "blueman-handsfree"$/;"	v	class:Headset
+__icon__	Input.py	/^    __icon__ = "mouse"$/;"	v	class:Input
+__icon__	NetworkAccessPoint.py	/^    __icon__ = "network-wireless"$/;"	v	class:NetworkAccessPoint
+__icon__	SerialPort.py	/^    __icon__ = "blueman-serial"$/;"	v	class:SerialPort
+__init__	meta/NetworkService.py	/^    def __init__(self, device, uuid):$/;"	m	class:NetworkService
+__init__	meta/SerialService.py	/^    def __init__(self, device, uuid):$/;"	m	class:SerialService
+__priority__	AudioSink.py	/^    __priority__ = 20$/;"	v	class:AudioSink
+__priority__	AudioSource.py	/^    __priority__ = 21$/;"	v	class:AudioSource
+__priority__	DialupNetwork.py	/^    __priority__ = 50$/;"	v	class:DialupNetwork
+__priority__	GroupNetwork.py	/^    __priority__ = 80$/;"	v	class:GroupNetwork
+__priority__	HandsfreeGateway.py	/^    __priority__ = 10$/;"	v	class:HandsfreeGateway
+__priority__	Headset.py	/^    __priority__ = 10$/;"	v	class:Headset
+__priority__	Input.py	/^    __priority__ = 1$/;"	v	class:Input
+__priority__	NetworkAccessPoint.py	/^    __priority__ = 81$/;"	v	class:NetworkAccessPoint
+__priority__	SerialPort.py	/^    __priority__ = 50$/;"	v	class:SerialPort
+__svclass_id__	AudioSink.py	/^    __svclass_id__ = AUDIO_SINK_SVCLASS_ID$/;"	v	class:AudioSink
+__svclass_id__	AudioSource.py	/^    __svclass_id__ = AUDIO_SOURCE_SVCLASS_ID$/;"	v	class:AudioSource
+__svclass_id__	DialupNetwork.py	/^    __svclass_id__ = DIALUP_NET_SVCLASS_ID$/;"	v	class:DialupNetwork
+__svclass_id__	GroupNetwork.py	/^    __svclass_id__ = GN_SVCLASS_ID$/;"	v	class:GroupNetwork
+__svclass_id__	HandsfreeGateway.py	/^    __svclass_id__ = HANDSFREE_SVCLASS_ID$/;"	v	class:HandsfreeGateway
+__svclass_id__	Headset.py	/^    __svclass_id__ = HEADSET_SVCLASS_ID$/;"	v	class:Headset
+__svclass_id__	Input.py	/^    __svclass_id__ = HID_SVCLASS_ID$/;"	v	class:Input
+__svclass_id__	NetworkAccessPoint.py	/^    __svclass_id__ = NAP_SVCLASS_ID$/;"	v	class:NetworkAccessPoint
+__svclass_id__	SerialPort.py	/^    __svclass_id__ = SERIAL_PORT_SVCLASS_ID$/;"	v	class:SerialPort
+absolute_import	AudioSink.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	AudioSource.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	DialupNetwork.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	GroupNetwork.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	HandsfreeGateway.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	Headset.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	Input.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	NetworkAccessPoint.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	SerialPort.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	__init__.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	meta/NetworkService.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	meta/SerialService.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	meta/__init__.py	/^from __future__ import absolute_import$/;"	i
+connect	meta/NetworkService.py	/^    def connect(self, reply_handler=None, error_handler=None):$/;"	m	class:NetworkService
+connect	meta/SerialService.py	/^    def connect(self, reply_handler=None, error_handler=None):$/;"	m	class:SerialService
+connected	AudioSource.py	/^    def connected(self):$/;"	m	class:AudioSource
+connected	HandsfreeGateway.py	/^    def connected(self):$/;"	m	class:HandsfreeGateway
+connected	meta/NetworkService.py	/^    def connected(self):$/;"	m	class:NetworkService
+connected	meta/SerialService.py	/^    def connected(self):$/;"	m	class:SerialService
+create_rfcomm_device	meta/SerialService.py	/^from _blueman import rfcomm_list, release_rfcomm_device, create_rfcomm_device$/;"	i
+disconnect	meta/NetworkService.py	/^    def disconnect(self, reply_handler=None, error_handler=None, *args):$/;"	m	class:NetworkService
+disconnect	meta/SerialService.py	/^    def disconnect(self, *args):$/;"	m	class:SerialService
+division	AudioSink.py	/^from __future__ import division$/;"	i
+division	AudioSource.py	/^from __future__ import division$/;"	i
+division	DialupNetwork.py	/^from __future__ import division$/;"	i
+division	GroupNetwork.py	/^from __future__ import division$/;"	i
+division	HandsfreeGateway.py	/^from __future__ import division$/;"	i
+division	Headset.py	/^from __future__ import division$/;"	i
+division	Input.py	/^from __future__ import division$/;"	i
+division	NetworkAccessPoint.py	/^from __future__ import division$/;"	i
+division	SerialPort.py	/^from __future__ import division$/;"	i
+division	__init__.py	/^from __future__ import division$/;"	i
+division	meta/NetworkService.py	/^from __future__ import division$/;"	i
+division	meta/SerialService.py	/^from __future__ import division$/;"	i
+division	meta/__init__.py	/^from __future__ import division$/;"	i
+dprint	meta/NetworkService.py	/^from blueman.Functions import dprint$/;"	i
+print_function	AudioSink.py	/^from __future__ import print_function$/;"	i
+print_function	AudioSource.py	/^from __future__ import print_function$/;"	i
+print_function	DialupNetwork.py	/^from __future__ import print_function$/;"	i
+print_function	GroupNetwork.py	/^from __future__ import print_function$/;"	i
+print_function	HandsfreeGateway.py	/^from __future__ import print_function$/;"	i
+print_function	Headset.py	/^from __future__ import print_function$/;"	i
+print_function	Input.py	/^from __future__ import print_function$/;"	i
+print_function	NetworkAccessPoint.py	/^from __future__ import print_function$/;"	i
+print_function	SerialPort.py	/^from __future__ import print_function$/;"	i
+print_function	__init__.py	/^from __future__ import print_function$/;"	i
+print_function	meta/NetworkService.py	/^from __future__ import print_function$/;"	i
+print_function	meta/SerialService.py	/^from __future__ import print_function$/;"	i
+print_function	meta/__init__.py	/^from __future__ import print_function$/;"	i
+release_rfcomm_device	meta/SerialService.py	/^from _blueman import rfcomm_list, release_rfcomm_device, create_rfcomm_device$/;"	i
+rfcomm_list	meta/SerialService.py	/^from _blueman import rfcomm_list, release_rfcomm_device, create_rfcomm_device$/;"	i
+serial_port_id	meta/SerialService.py	/^    def serial_port_id(self, channel):$/;"	m	class:SerialService
+unicode_literals	AudioSink.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	AudioSource.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	DialupNetwork.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	GroupNetwork.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	HandsfreeGateway.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	Headset.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	Input.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	NetworkAccessPoint.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	SerialPort.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	__init__.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	meta/NetworkService.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	meta/SerialService.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	meta/__init__.py	/^from __future__ import unicode_literals$/;"	i

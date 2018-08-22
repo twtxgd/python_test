@@ -1,0 +1,485 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Adapter	DeviceSelectorWidget.py	/^from blueman.bluez.Adapter import Adapter$/;"	i
+AnimBase	GtkAnimation.py	/^class AnimBase(GObject.GObject):$/;"	c
+AnimBase	Notification.py	/^from blueman.gui.GtkAnimation import AnimBase$/;"	i
+Animation	Animation.py	/^class Animation:$/;"	c
+Animation	manager/ManagerStats.py	/^from blueman.gui.Animation import Animation$/;"	i
+AppendDevice	DeviceList.py	/^    def AppendDevice(self, device):$/;"	m	class:DeviceList
+AppletService	manager/ManagerDeviceMenu.py	/^from blueman.main.AppletService import AppletService$/;"	i
+BezierController	GtkAnimation.py	/^class BezierController(LinearController):$/;"	c
+BlueZInterface	manager/ManagerDeviceMenu.py	/^from blueman.bluez.BlueZInterface import BlueZInterface$/;"	i
+Bluez	DeviceList.py	/^import blueman.bluez as Bluez$/;"	i
+Bluez	manager/ManagerMenu.py	/^import blueman.bluez as Bluez$/;"	i
+CellFade	GtkAnimation.py	/^class CellFade(AnimBase):$/;"	c
+CellFade	manager/ManagerDeviceList.py	/^from blueman.gui.GtkAnimation import TreeRowColorFade, TreeRowFade, CellFade$/;"	i
+Config	GsmSettings.py	/^from blueman.main.Config import Config$/;"	i
+Config	Notification.py	/^from blueman.main.Config import Config$/;"	i
+Device	DeviceList.py	/^from blueman.main.Device import Device$/;"	i
+DeviceList	DeviceList.py	/^class DeviceList(GenericList):$/;"	c
+DeviceList	DeviceSelectorList.py	/^from blueman.gui.DeviceList import DeviceList$/;"	i
+DeviceList	manager/ManagerDeviceList.py	/^from blueman.gui.DeviceList import DeviceList$/;"	i
+DeviceSelectorDialog	DeviceSelectorDialog.py	/^class DeviceSelectorDialog(Gtk.Dialog):$/;"	c
+DeviceSelectorList	DeviceSelectorList.py	/^class DeviceSelectorList(DeviceList):$/;"	c
+DeviceSelectorList	DeviceSelectorWidget.py	/^from blueman.gui.DeviceSelectorList import DeviceSelectorList$/;"	i
+DeviceSelectorWidget	DeviceSelectorDialog.py	/^from blueman.gui.DeviceSelectorWidget import DeviceSelectorWidget$/;"	i
+DeviceSelectorWidget	DeviceSelectorWidget.py	/^class DeviceSelectorWidget(Gtk.VBox):$/;"	c
+DiscoverDevices	DeviceList.py	/^    def DiscoverDevices(self, time=10.24):$/;"	m	class:DeviceList
+DisplayKnownDevices	DeviceList.py	/^    def DisplayKnownDevices(self, autoselect=False):$/;"	m	class:DeviceList
+Fade	Notification.py	/^class Fade(AnimBase):$/;"	c
+FakeDevice	DeviceList.py	/^from blueman.main.FakeDevice import FakeDevice$/;"	i
+GObject	Animation.py	/^from gi.repository import GObject$/;"	i
+GObject	DeviceList.py	/^from gi.repository import GObject$/;"	i
+GObject	DeviceSelectorDialog.py	/^from gi.repository import GObject$/;"	i
+GObject	DeviceSelectorWidget.py	/^from gi.repository import GObject$/;"	i
+GObject	GenericList.py	/^from gi.repository import GObject$/;"	i
+GObject	GtkAnimation.py	/^from gi.repository import GObject$/;"	i
+GObject	MessageArea.py	/^from gi.repository import GObject$/;"	i
+GObject	manager/ManagerDeviceMenu.py	/^from gi.repository import GObject$/;"	i
+GObject	manager/ManagerProgressbar.py	/^from gi.repository import GObject$/;"	i
+GObject	manager/ManagerStats.py	/^from gi.repository import GObject$/;"	i
+Gdk	GtkAnimation.py	/^from gi.repository import Gtk, Gdk$/;"	i
+Gdk	MessageArea.py	/^from gi.repository import Gdk$/;"	i
+Gdk	Notification.py	/^from gi.repository import Gdk$/;"	i
+Gdk	manager/ManagerDeviceList.py	/^from gi.repository import Gdk$/;"	i
+Gdk	manager/ManagerProgressbar.py	/^from gi.repository import Gdk$/;"	i
+GdkPixbuf	DeviceSelectorList.py	/^from gi.repository import GdkPixbuf$/;"	i
+GdkPixbuf	manager/ManagerDeviceList.py	/^from gi.repository import GdkPixbuf$/;"	i
+Generate	manager/ManagerDeviceMenu.py	/^    def Generate(self):$/;"	m	class:ManagerDeviceMenu
+GenericList	DeviceList.py	/^from blueman.gui.GenericList import GenericList$/;"	i
+GenericList	GenericList.py	/^class GenericList(Gtk.TreeView):$/;"	c
+GenericList	applet/PluginDialog.py	/^from blueman.gui.GenericList import GenericList$/;"	i
+GetAdapterPath	DeviceList.py	/^    def GetAdapterPath(self):$/;"	m	class:DeviceList
+GetSelectedDevice	DeviceList.py	/^    def GetSelectedDevice(self):$/;"	m	class:DeviceList
+GetSelection	DeviceSelectorDialog.py	/^    def GetSelection(self):$/;"	m	class:DeviceSelectorDialog
+Gio	manager/ManagerMenu.py	/^from gi.repository import Gtk, Gio$/;"	i
+GsmSettings	GsmSettings.py	/^class GsmSettings(Gtk.Dialog):$/;"	c
+Gtk	Animation.py	/^from gi.repository import Gtk$/;"	i
+Gtk	CommonUi.py	/^from gi.repository import Gtk$/;"	i
+Gtk	DeviceList.py	/^from gi.repository import Gtk$/;"	i
+Gtk	DeviceSelectorDialog.py	/^from gi.repository import Gtk$/;"	i
+Gtk	DeviceSelectorList.py	/^from gi.repository import Gtk$/;"	i
+Gtk	DeviceSelectorWidget.py	/^from gi.repository import Gtk$/;"	i
+Gtk	Dialogs.py	/^from gi.repository import Gtk$/;"	i
+Gtk	GenericList.py	/^from gi.repository import Gtk$/;"	i
+Gtk	GsmSettings.py	/^from gi.repository import Gtk$/;"	i
+Gtk	GtkAnimation.py	/^from gi.repository import Gtk, Gdk$/;"	i
+Gtk	MessageArea.py	/^from gi.repository import Gtk$/;"	i
+Gtk	Notification.py	/^from gi.repository import Gtk$/;"	i
+Gtk	applet/PluginDialog.py	/^from gi.repository import Gtk$/;"	i
+Gtk	manager/ManagerDeviceList.py	/^from gi.repository import Gtk$/;"	i
+Gtk	manager/ManagerDeviceMenu.py	/^from gi.repository import Gtk$/;"	i
+Gtk	manager/ManagerMenu.py	/^from gi.repository import Gtk$/;"	i
+Gtk	manager/ManagerMenu.py	/^from gi.repository import Gtk, Gio$/;"	i
+Gtk	manager/ManagerProgressbar.py	/^from gi.repository import Gtk$/;"	i
+Gtk	manager/ManagerStats.py	/^from gi.repository import Gtk$/;"	i
+Gtk	manager/ManagerToolbar.py	/^from gi.repository import Gtk$/;"	i
+IsValidAdapter	DeviceList.py	/^    def IsValidAdapter(self):$/;"	m	class:DeviceList
+LinearController	GtkAnimation.py	/^class LinearController(object):$/;"	c
+ManagerDeviceList	manager/ManagerDeviceList.py	/^class ManagerDeviceList(DeviceList):$/;"	c
+ManagerDeviceMenu	manager/ManagerDeviceList.py	/^from blueman.gui.manager.ManagerDeviceMenu import ManagerDeviceMenu$/;"	i
+ManagerDeviceMenu	manager/ManagerDeviceMenu.py	/^class ManagerDeviceMenu(Gtk.Menu):$/;"	c
+ManagerDeviceMenu	manager/ManagerMenu.py	/^from blueman.gui.manager.ManagerDeviceMenu import ManagerDeviceMenu$/;"	i
+ManagerMenu	manager/ManagerMenu.py	/^class ManagerMenu:$/;"	c
+ManagerProgressbar	manager/ManagerDeviceMenu.py	/^from blueman.gui.manager.ManagerProgressbar import ManagerProgressbar$/;"	i
+ManagerProgressbar	manager/ManagerMenu.py	/^from blueman.gui.manager.ManagerProgressbar import ManagerProgressbar$/;"	i
+ManagerProgressbar	manager/ManagerProgressbar.py	/^class ManagerProgressbar(GObject.GObject):$/;"	c
+ManagerStats	manager/ManagerStats.py	/^class ManagerStats:$/;"	c
+ManagerToolbar	manager/ManagerToolbar.py	/^class ManagerToolbar:$/;"	c
+MessageArea	MessageArea.py	/^class MessageArea(Gtk.EventBox):$/;"	c
+MessageArea	manager/ManagerDeviceMenu.py	/^from blueman.gui.MessageArea import MessageArea$/;"	i
+NetworkErrorDialog	Dialogs.py	/^class NetworkErrorDialog(Gtk.MessageDialog):$/;"	c
+Notification	Notification.py	/^class Notification(object):$/;"	c
+Notify	Notification.py	/^from gi.repository import Notify$/;"	i
+OBEX_FILETRANS_SVCLASS_ID	manager/ManagerDeviceMenu.py	/^from blueman.Sdp import uuid128_to_uuid16, SERIAL_PORT_SVCLASS_ID, OBEX_OBJPUSH_SVCLASS_ID, OBEX_FILETRANS_SVCLASS_ID$/;"	i
+OBEX_OBJPUSH_SVCLASS_ID	manager/ManagerDeviceMenu.py	/^from blueman.Sdp import uuid128_to_uuid16, SERIAL_PORT_SVCLASS_ID, OBEX_OBJPUSH_SVCLASS_ID, OBEX_FILETRANS_SVCLASS_ID$/;"	i
+OPACITY_START	Notification.py	/^OPACITY_START = 0.7$/;"	v
+Pango	DeviceSelectorList.py	/^from gi.repository import Pango$/;"	i
+Pango	MessageArea.py	/^from gi.repository import Pango$/;"	i
+Pango	manager/ManagerDeviceList.py	/^from gi.repository import Pango$/;"	i
+Pango	manager/ManagerProgressbar.py	/^from gi.repository import Pango$/;"	i
+PluginDialog	applet/PluginDialog.py	/^class PluginDialog(Gtk.Dialog):$/;"	c
+PrependDevice	DeviceList.py	/^    def PrependDevice(self, device):$/;"	m	class:DeviceList
+RemoveDevice	DeviceList.py	/^    def RemoveDevice(self, device, iter=None):$/;"	m	class:DeviceList
+SERIAL_PORT_SVCLASS_ID	manager/ManagerDeviceMenu.py	/^from blueman.Sdp import uuid128_to_uuid16, SERIAL_PORT_SVCLASS_ID, OBEX_OBJPUSH_SVCLASS_ID, OBEX_FILETRANS_SVCLASS_ID$/;"	i
+SerialPort	manager/ManagerDeviceMenu.py	/^from blueman.services import SerialPort$/;"	i
+SetAdapter	DeviceList.py	/^    def SetAdapter(self, adapter=None):$/;"	m	class:DeviceList
+SettingsWidget	applet/PluginDialog.py	/^class SettingsWidget(Gtk.VBox):$/;"	c
+SignalTracker	DeviceList.py	/^from blueman.main.SignalTracker import SignalTracker$/;"	i
+SignalTracker	manager/ManagerDeviceMenu.py	/^from blueman.main.SignalTracker import SignalTracker$/;"	i
+SignalTracker	manager/ManagerProgressbar.py	/^from blueman.main.SignalTracker import SignalTracker$/;"	i
+SpeedCalc	manager/ManagerStats.py	/^from blueman.main.SpeedCalc import SpeedCalc$/;"	i
+StopDiscovery	DeviceList.py	/^    def StopDiscovery(self):$/;"	m	class:DeviceList
+TreeRowColorFade	GtkAnimation.py	/^class TreeRowColorFade(TreeRowFade):$/;"	c
+TreeRowColorFade	manager/ManagerDeviceList.py	/^from blueman.gui.GtkAnimation import TreeRowColorFade, TreeRowFade, CellFade$/;"	i
+TreeRowFade	GtkAnimation.py	/^class TreeRowFade(AnimBase):$/;"	c
+TreeRowFade	manager/ManagerDeviceList.py	/^from blueman.gui.GtkAnimation import TreeRowColorFade, TreeRowFade, CellFade$/;"	i
+WidgetFade	GtkAnimation.py	/^class WidgetFade(AnimBase):$/;"	c
+WidgetFade	MessageArea.py	/^from blueman.gui.GtkAnimation import WidgetFade$/;"	i
+_	manager/ManagerStats.py	/^_ = gettext.gettext$/;"	v
+_NotificationBubble	Notification.py	/^class _NotificationBubble(Notify.Notification):$/;"	c
+_NotificationDialog	Notification.py	/^class _NotificationDialog(Gtk.MessageDialog):$/;"	c
+__b	GtkAnimation.py	/^    def __b(self, t, p1, p2, p3):$/;"	m	class:BezierController	file:
+__del__	DeviceList.py	/^    def __del__(self):$/;"	m	class:DeviceList	file:
+__del__	DeviceSelectorWidget.py	/^    def __del__(self):$/;"	m	class:DeviceSelectorWidget	file:
+__del__	manager/ManagerDeviceMenu.py	/^    def __del__(self):$/;"	m	class:ManagerDeviceMenu	file:
+__gsignals__	DeviceList.py	/^    __gsignals__ = {$/;"	v	class:DeviceList
+__gsignals__	GtkAnimation.py	/^    __gsignals__ = {$/;"	v	class:AnimBase
+__gsignals__	manager/ManagerProgressbar.py	/^    __gsignals__ = {$/;"	v	class:ManagerProgressbar
+__init__	Animation.py	/^    def __init__(self, image, images, rate=1, rev=False):$/;"	m	class:Animation
+__init__	DeviceList.py	/^    def __init__(self, adapter=None, tabledata=None):$/;"	m	class:DeviceList
+__init__	DeviceSelectorDialog.py	/^    def __init__(self, title=_("Select Device"), parent=None, discover=True):$/;"	m	class:DeviceSelectorDialog
+__init__	DeviceSelectorList.py	/^    def __init__(self, adapter=None):$/;"	m	class:DeviceSelectorList
+__init__	DeviceSelectorWidget.py	/^    def __init__(self, adapter=None):$/;"	m	class:DeviceSelectorWidget
+__init__	Dialogs.py	/^    def __init__(self, excp, secondary_markup=None):$/;"	m	class:NetworkErrorDialog
+__init__	GenericList.py	/^    def __init__(self, data):$/;"	m	class:GenericList
+__init__	GsmSettings.py	/^    def __init__(self, bd_address):$/;"	m	class:GsmSettings
+__init__	GtkAnimation.py	/^    def __init__(self, curvature=0.5, start=0.0, end=1.0):$/;"	m	class:BezierController
+__init__	GtkAnimation.py	/^    def __init__(self, state=1.0):$/;"	m	class:AnimBase
+__init__	GtkAnimation.py	/^    def __init__(self, tw, path, color):$/;"	m	class:TreeRowColorFade
+__init__	GtkAnimation.py	/^    def __init__(self, tw, path, columns=None):$/;"	m	class:CellFade
+__init__	GtkAnimation.py	/^    def __init__(self, tw, path, columns=None):$/;"	m	class:TreeRowFade
+__init__	GtkAnimation.py	/^    def __init__(self, widget, color):$/;"	m	class:WidgetFade
+__init__	MessageArea.py	/^    def __init__(self):$/;"	m	class:MessageArea
+__init__	Notification.py	/^    def __init__(self, summary, message, timeout=-1, actions=None, actions_cb=None, pixbuf=None, status_icon=None):$/;"	m	class:_NotificationDialog
+__init__	Notification.py	/^    def __init__(self, window):$/;"	m	class:Fade
+__init__	applet/PluginDialog.py	/^    def __init__(self, applet):$/;"	m	class:PluginDialog
+__init__	applet/PluginDialog.py	/^    def __init__(self, inst):$/;"	m	class:SettingsWidget
+__init__	manager/ManagerDeviceList.py	/^    def __init__(self, adapter=None, inst=None):$/;"	m	class:ManagerDeviceList
+__init__	manager/ManagerDeviceMenu.py	/^    def __init__(self, blueman):$/;"	m	class:ManagerDeviceMenu
+__init__	manager/ManagerMenu.py	/^    def __init__(self, blueman):$/;"	m	class:ManagerMenu
+__init__	manager/ManagerProgressbar.py	/^    def __init__(self, blueman, cancellable=True, text=_("Connecting")):$/;"	m	class:ManagerProgressbar
+__init__	manager/ManagerStats.py	/^    def __init__(self, blueman):$/;"	m	class:ManagerStats
+__init__	manager/ManagerToolbar.py	/^    def __init__(self, blueman):$/;"	m	class:ManagerToolbar
+__instances__	manager/ManagerDeviceMenu.py	/^    __instances__ = []$/;"	v	class:ManagerDeviceMenu
+__instances__	manager/ManagerProgressbar.py	/^    __instances__ = []$/;"	v	class:ManagerProgressbar
+__new__	MessageArea.py	/^    def __new__(cls):$/;"	m	class:MessageArea	file:
+__new__	Notification.py	/^    def __new__(cls, summary, message, timeout=-1, actions=None, actions_cb=None, pixbuf=None, status_icon=None):$/;"	m	class:Notification	file:
+__new__	Notification.py	/^    def __new__(cls, summary, message, timeout=-1, actions=None, actions_cb=None, pixbuf=None, status_icon=None):$/;"	m	class:_NotificationBubble	file:
+__ops__	manager/ManagerDeviceMenu.py	/^    __ops__ = {}$/;"	v	class:ManagerDeviceMenu
+_add	GenericList.py	/^    def _add(self, **columns):$/;"	m	class:GenericList
+_animation	Animation.py	/^    def _animation(self):$/;"	m	class:Animation
+_do_transition	GtkAnimation.py	/^    def _do_transition(self):$/;"	m	class:AnimBase
+_inst_	MessageArea.py	/^    _inst_ = None$/;"	v	class:MessageArea
+_load	GenericList.py	/^    def _load(self, data):$/;"	m	class:GenericList
+_set_style	MessageArea.py	/^        def _set_style(wg):$/;"	f	function:MessageArea.style_set
+_show_message	MessageArea.py	/^    def _show_message(self, text, icon="dialog-warning"):$/;"	m	class:MessageArea
+_state_changed	GtkAnimation.py	/^    def _state_changed(self, state):$/;"	m	class:AnimBase
+_update	manager/ManagerStats.py	/^    def _update(self):$/;"	m	class:ManagerStats
+absolute_import	Animation.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	CommonUi.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	DeviceList.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	DeviceSelectorDialog.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	DeviceSelectorList.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	DeviceSelectorWidget.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	Dialogs.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	GenericList.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	GsmSettings.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	GtkAnimation.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	MessageArea.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	Notification.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	applet/PluginDialog.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	manager/ManagerDeviceList.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	manager/ManagerDeviceMenu.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	manager/ManagerMenu.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	manager/ManagerProgressbar.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	manager/ManagerStats.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	manager/ManagerToolbar.py	/^from __future__ import absolute_import$/;"	i
+actions_supported	Notification.py	/^    def actions_supported():$/;"	m	class:Notification
+adapter_path_to_name	DeviceList.py	/^from blueman.Functions import wait_for_adapter, adapter_path_to_name, dprint$/;"	i
+adapter_path_to_name	manager/ManagerMenu.py	/^from blueman.Functions import adapter_path_to_name$/;"	i
+adapter_path_to_name	manager/ManagerStats.py	/^from blueman.Functions import get_icon, adapter_path_to_name$/;"	i
+add_action	Notification.py	/^    def add_action(self, *args):$/;"	m	class:_NotificationDialog
+add_device	DeviceList.py	/^    def add_device(self, device, append=True):$/;"	m	class:DeviceList
+animate	GtkAnimation.py	/^    def animate(self, start=1.0, end=0.0, duration=1000):$/;"	m	class:AnimBase
+append	DeviceList.py	/^    def append(self, **columns):$/;"	m	class:DeviceList
+append	GenericList.py	/^    def append(self, **columns):$/;"	m	class:GenericList
+blueman	DeviceList.py	/^import blueman.bluez as Bluez$/;"	i
+blueman	manager/ManagerMenu.py	/^import blueman.bluez as Bluez$/;"	i
+body_supported	Notification.py	/^    def body_supported():$/;"	m	class:Notification
+cairo	GtkAnimation.py	/^import cairo$/;"	i
+cgi	DeviceSelectorList.py	/^import cgi$/;"	i
+cgi	manager/ManagerDeviceList.py	/^import cgi$/;"	i
+clear	DeviceList.py	/^    def clear(self):$/;"	m	class:DeviceList
+clear	GenericList.py	/^    def clear(self):$/;"	m	class:GenericList
+clear	manager/ManagerDeviceMenu.py	/^    def clear(self):$/;"	m	class:ManagerDeviceMenu
+clear_actions	Notification.py	/^    def clear_actions(self, *args):$/;"	m	class:_NotificationDialog
+close	MessageArea.py	/^    def close():$/;"	m	class:MessageArea
+close	Notification.py	/^    def close(self):$/;"	m	class:Notification
+close	Notification.py	/^    def close(self):$/;"	m	class:_NotificationDialog
+compare	GenericList.py	/^    def compare(self, iter_a, iter_b):$/;"	m	class:GenericList
+conn_info	DeviceList.py	/^from _blueman import conn_info$/;"	i
+connect	manager/ManagerProgressbar.py	/^    def connect(self, *args):$/;"	m	class:ManagerProgressbar
+construct_settings	applet/PluginDialog.py	/^    def construct_settings(self):$/;"	m	class:SettingsWidget
+copy	DeviceList.py	/^import copy$/;"	i
+datetime	CommonUi.py	/^from datetime import datetime$/;"	i
+delete	GenericList.py	/^    def delete(self, id):$/;"	m	class:GenericList
+destroy	DeviceList.py	/^    def destroy(self):$/;"	m	class:DeviceList
+device_add_event	DeviceList.py	/^    def device_add_event(self, device):$/;"	m	class:DeviceList
+device_add_event	DeviceSelectorList.py	/^    def device_add_event(self, device):$/;"	m	class:DeviceSelectorList
+device_add_event	manager/ManagerDeviceList.py	/^    def device_add_event(self, device):$/;"	m	class:ManagerDeviceList
+device_info	manager/ManagerStats.py	/^from _blueman import device_info$/;"	i
+device_remove_event	DeviceList.py	/^    def device_remove_event(self, device, iter):$/;"	m	class:DeviceList
+device_remove_event	manager/ManagerDeviceList.py	/^    def device_remove_event(self, device, iter):$/;"	m	class:ManagerDeviceList
+dialog_response	Notification.py	/^    def dialog_response(self, dialog, response):$/;"	m	class:_NotificationDialog
+disconnectall	manager/ManagerDeviceMenu.py	/^        def disconnectall(x):$/;"	f	function:ManagerDeviceMenu.popup
+division	Animation.py	/^from __future__ import division$/;"	i
+division	CommonUi.py	/^from __future__ import division$/;"	i
+division	DeviceList.py	/^from __future__ import division$/;"	i
+division	DeviceSelectorDialog.py	/^from __future__ import division$/;"	i
+division	DeviceSelectorList.py	/^from __future__ import division$/;"	i
+division	DeviceSelectorWidget.py	/^from __future__ import division$/;"	i
+division	Dialogs.py	/^from __future__ import division$/;"	i
+division	GenericList.py	/^from __future__ import division$/;"	i
+division	GsmSettings.py	/^from __future__ import division$/;"	i
+division	GtkAnimation.py	/^from __future__ import division$/;"	i
+division	MessageArea.py	/^from __future__ import division$/;"	i
+division	Notification.py	/^from __future__ import division$/;"	i
+division	applet/PluginDialog.py	/^from __future__ import division$/;"	i
+division	manager/ManagerDeviceList.py	/^from __future__ import division$/;"	i
+division	manager/ManagerDeviceMenu.py	/^from __future__ import division$/;"	i
+division	manager/ManagerMenu.py	/^from __future__ import division$/;"	i
+division	manager/ManagerProgressbar.py	/^from __future__ import division$/;"	i
+division	manager/ManagerStats.py	/^from __future__ import division$/;"	i
+division	manager/ManagerToolbar.py	/^from __future__ import division$/;"	i
+do_animation_finished	GtkAnimation.py	/^    def do_animation_finished(self):$/;"	m	class:TreeRowColorFade
+do_cache	DeviceList.py	/^    def do_cache(self, iter, kwargs):$/;"	m	class:DeviceList
+do_device_found	manager/ManagerDeviceList.py	/^    def do_device_found(self, device):$/;"	m	class:ManagerDeviceList
+dprint	DeviceList.py	/^from blueman.Functions import wait_for_adapter, adapter_path_to_name, dprint$/;"	i
+dprint	DeviceSelectorWidget.py	/^from blueman.Functions import dprint$/;"	i
+dprint	Notification.py	/^from blueman.Functions import dprint$/;"	i
+dprint	manager/ManagerProgressbar.py	/^from blueman.Functions import get_icon, dprint$/;"	i
+dprint	manager/ManagerToolbar.py	/^from blueman.Functions import dprint$/;"	i
+drag_motion	manager/ManagerDeviceList.py	/^    def drag_motion(self, widget, drag_context, x, y, timestamp):$/;"	m	class:ManagerDeviceList
+drag_recv	manager/ManagerDeviceList.py	/^    def drag_recv(self, widget, context, x, y, selection, target_type, time):$/;"	m	class:ManagerDeviceList
+draw	MessageArea.py	/^    def draw(self, window, cr):$/;"	m	class:MessageArea
+each	manager/ManagerDeviceMenu.py	/^        def each(child, data):$/;"	f	function:ManagerDeviceMenu.clear
+expose_event	MessageArea.py	/^    def expose_event(self, window, event):$/;"	m	class:MessageArea
+fail	manager/ManagerDeviceMenu.py	/^        def fail(*args):$/;"	f	function:ManagerDeviceMenu.on_connect
+finalize	manager/ManagerProgressbar.py	/^    def finalize(self):$/;"	m	class:ManagerProgressbar
+find_device	DeviceList.py	/^    def find_device(self, device):$/;"	m	class:DeviceList
+find_device_by_path	DeviceList.py	/^    def find_device_by_path(self, path):$/;"	m	class:DeviceList
+finished	manager/ManagerDeviceMenu.py	/^                def finished(*args):$/;"	f	function:ManagerDeviceMenu.Generate.on_disconnect
+format_bytes	manager/ManagerStats.py	/^from blueman.Functions import format_bytes$/;"	i
+fraction	manager/ManagerProgressbar.py	/^    def fraction(self, frac):$/;"	m	class:ManagerProgressbar
+freeze	GtkAnimation.py	/^    def freeze(self):$/;"	m	class:AnimBase
+generate_adapter_menu	manager/ManagerMenu.py	/^    def generate_adapter_menu(self):$/;"	m	class:ManagerMenu
+get	GenericList.py	/^    def get(self, id, *items):$/;"	m	class:GenericList
+get_conditional	GenericList.py	/^    def get_conditional(self, **cols):$/;"	m	class:GenericList
+get_control_widget	applet/PluginDialog.py	/^    def get_control_widget(self, opt, params):$/;"	m	class:SettingsWidget
+get_device_class	manager/ManagerDeviceList.py	/^    def get_device_class(self, device):$/;"	m	class:ManagerDeviceList
+get_device_icon	manager/ManagerDeviceList.py	/^    def get_device_icon(self, klass):$/;"	m	class:ManagerDeviceList
+get_icon	MessageArea.py	/^from blueman.Functions import get_icon$/;"	i
+get_icon	manager/ManagerProgressbar.py	/^from blueman.Functions import get_icon, dprint$/;"	i
+get_icon	manager/ManagerStats.py	/^from blueman.Functions import get_icon, adapter_path_to_name$/;"	i
+get_iter	GenericList.py	/^    def get_iter(self, path):$/;"	m	class:GenericList
+get_iter	GtkAnimation.py	/^    def get_iter(self):$/;"	m	class:CellFade
+get_iter	GtkAnimation.py	/^    def get_iter(self):$/;"	m	class:TreeRowFade
+get_major_class	manager/ManagerDeviceList.py	/^from blueman.DeviceClass import get_minor_class, get_major_class$/;"	i
+get_minor_class	manager/ManagerDeviceList.py	/^from blueman.DeviceClass import get_minor_class, get_major_class$/;"	i
+get_op	manager/ManagerDeviceMenu.py	/^    def get_op(self, device):$/;"	m	class:ManagerDeviceMenu
+get_rate	Animation.py	/^    def get_rate(self):$/;"	m	class:Animation
+get_state	GtkAnimation.py	/^    def get_state(self):$/;"	m	class:AnimBase
+get_value	GtkAnimation.py	/^    def get_value(self, input):$/;"	m	class:BezierController
+get_value	GtkAnimation.py	/^    def get_value(self, input):$/;"	m	class:LinearController
+get_x_icon	manager/ManagerDeviceMenu.py	/^def get_x_icon(icon_name, size):$/;"	f
+gettext	manager/ManagerStats.py	/^import gettext$/;"	i
+gi	Animation.py	/^import gi$/;"	i
+gi	CommonUi.py	/^import gi$/;"	i
+gi	DeviceList.py	/^import gi$/;"	i
+gi	DeviceSelectorDialog.py	/^import gi$/;"	i
+gi	DeviceSelectorList.py	/^import gi$/;"	i
+gi	DeviceSelectorWidget.py	/^import gi$/;"	i
+gi	Dialogs.py	/^import gi$/;"	i
+gi	GenericList.py	/^import gi$/;"	i
+gi	GsmSettings.py	/^import gi$/;"	i
+gi	GtkAnimation.py	/^import gi$/;"	i
+gi	MessageArea.py	/^import gi$/;"	i
+gi	Notification.py	/^import gi$/;"	i
+gi	applet/PluginDialog.py	/^import gi$/;"	i
+gi	manager/ManagerDeviceList.py	/^import gi$/;"	i
+gi	manager/ManagerDeviceMenu.py	/^import gi$/;"	i
+gi	manager/ManagerMenu.py	/^import gi$/;"	i
+gi	manager/ManagerProgressbar.py	/^import gi$/;"	i
+gi	manager/ManagerToolbar.py	/^import gi$/;"	i
+handle_change	applet/PluginDialog.py	/^    def handle_change(self, widget, opt, params, prop):$/;"	m	class:SettingsWidget
+hide	manager/ManagerProgressbar.py	/^    def hide(self):$/;"	m	class:ManagerProgressbar
+is_animating	GtkAnimation.py	/^    def is_animating(self):$/;"	m	class:AnimBase
+itemgetter	manager/ManagerDeviceMenu.py	/^from operator import itemgetter$/;"	i
+level_setup_event	DeviceList.py	/^    def level_setup_event(self, iter, device, cinfo):$/;"	m	class:DeviceList
+level_setup_event	manager/ManagerDeviceList.py	/^    def level_setup_event(self, row_ref, device, cinfo):$/;"	m	class:ManagerDeviceList
+list_compare_func	applet/PluginDialog.py	/^    def list_compare_func(self, treemodel, iter1, iter2, user_data):$/;"	m	class:PluginDialog
+make_caption	manager/ManagerDeviceList.py	/^    def make_caption(self, name, klass, address):$/;"	m	class:ManagerDeviceList
+make_device_icon	manager/ManagerDeviceList.py	/^    def make_device_icon(self, target, is_bonded=False, is_trusted=False, is_discovered=False, opacity=255):$/;"	m	class:ManagerDeviceList
+message	manager/ManagerProgressbar.py	/^    def message(self, msg, timeout=1500):$/;"	m	class:ManagerProgressbar
+monitor_power_levels	DeviceList.py	/^    def monitor_power_levels(self, device):$/;"	m	class:DeviceList
+on_action	Notification.py	/^        def on_action(n, action, *args):$/;"	f	function:_NotificationBubble.__new__
+on_action	manager/ManagerToolbar.py	/^    def on_action(self, button, func):$/;"	m	class:ManagerToolbar
+on_activate	DeviceList.py	/^            def on_activate():$/;"	f	function:DeviceList.__init__.on_adapter_added
+on_adapter_added	DeviceList.py	/^        def on_adapter_added(path):$/;"	f	function:DeviceList.__init__
+on_adapter_added	DeviceSelectorWidget.py	/^    def on_adapter_added(self, devlist, adapter_path):$/;"	m	class:DeviceSelectorWidget
+on_adapter_added	manager/ManagerMenu.py	/^    def on_adapter_added(self, device_list, adapter_path):$/;"	m	class:ManagerMenu
+on_adapter_changed	DeviceSelectorDialog.py	/^    def on_adapter_changed(self, devlist, adapter):$/;"	m	class:DeviceSelectorDialog
+on_adapter_changed	DeviceSelectorWidget.py	/^    def on_adapter_changed(self, devlist, adapter_path):$/;"	m	class:DeviceSelectorWidget
+on_adapter_changed	manager/ManagerMenu.py	/^    def on_adapter_changed(self, List, path):$/;"	m	class:ManagerMenu
+on_adapter_changed	manager/ManagerStats.py	/^    def on_adapter_changed(self, List, adapter_path):$/;"	m	class:ManagerStats
+on_adapter_changed	manager/ManagerToolbar.py	/^    def on_adapter_changed(self, list, adapter_path):$/;"	m	class:ManagerToolbar
+on_adapter_prop_changed	DeviceSelectorWidget.py	/^    def on_adapter_prop_changed(self, devlist, adapter, key_value):$/;"	m	class:DeviceSelectorWidget
+on_adapter_property_changed	manager/ManagerMenu.py	/^    def on_adapter_property_changed(self, list, adapter, kv):$/;"	m	class:ManagerMenu
+on_adapter_property_changed	manager/ManagerToolbar.py	/^    def on_adapter_property_changed(self, List, adapter, key_value):$/;"	m	class:ManagerToolbar
+on_adapter_removed	DeviceList.py	/^        def on_adapter_removed(path):$/;"	f	function:DeviceList.__init__
+on_adapter_removed	DeviceSelectorWidget.py	/^    def on_adapter_removed(self, devlist, adapter_path):$/;"	m	class:DeviceSelectorWidget
+on_adapter_removed	manager/ManagerMenu.py	/^    def on_adapter_removed(self, device_list, adapter_path):$/;"	m	class:ManagerMenu
+on_adapter_selected	DeviceSelectorWidget.py	/^    def on_adapter_selected(self, cb_adapters):$/;"	m	class:DeviceSelectorWidget
+on_adapter_selected	manager/ManagerMenu.py	/^    def on_adapter_selected(self, menuitem, adapter_path):$/;"	m	class:ManagerMenu
+on_clicked	manager/ManagerProgressbar.py	/^        def on_clicked(evbox, event):$/;"	f	function:ManagerProgressbar.__init__
+on_close	MessageArea.py	/^    def on_close(self, button):$/;"	m	class:MessageArea
+on_connect	manager/ManagerDeviceMenu.py	/^    def on_connect(self, _item, service):$/;"	m	class:ManagerDeviceMenu
+on_device_created	DeviceList.py	/^    def on_device_created(self, path):$/;"	m	class:DeviceList
+on_device_found	DeviceList.py	/^    def on_device_found(self, address, props):$/;"	m	class:DeviceList
+on_device_property_changed	DeviceList.py	/^    def on_device_property_changed(self, key, value, path, *args, **kwargs):$/;"	m	class:DeviceList
+on_device_property_changed	manager/ManagerDeviceMenu.py	/^    def on_device_property_changed(self, List, device, iter, key_value):$/;"	m	class:ManagerDeviceMenu
+on_device_propery_changed	manager/ManagerToolbar.py	/^    def on_device_propery_changed(self, dev_list, device, iter, key_value):$/;"	m	class:ManagerToolbar
+on_device_removed	DeviceList.py	/^    def on_device_removed(self, path):$/;"	m	class:DeviceList
+on_device_selected	DeviceSelectorDialog.py	/^    def on_device_selected(self, devlist, device, iter):$/;"	m	class:DeviceSelectorDialog
+on_device_selected	manager/ManagerMenu.py	/^    def on_device_selected(self, List, device, iter):$/;"	m	class:ManagerMenu
+on_device_selected	manager/ManagerToolbar.py	/^    def on_device_selected(self, dev_list, device, iter):$/;"	m	class:ManagerToolbar
+on_disconnect	manager/ManagerDeviceMenu.py	/^            def on_disconnect(item):$/;"	f	function:ManagerDeviceMenu.Generate
+on_disconnect	manager/ManagerDeviceMenu.py	/^    def on_disconnect(self, item, service, port=0):$/;"	m	class:ManagerDeviceMenu
+on_discovery_progress	DeviceSelectorWidget.py	/^    def on_discovery_progress(self, devlist, fraction):$/;"	m	class:DeviceSelectorWidget
+on_enter	Notification.py	/^        def on_enter(widget, event):$/;"	f	function:_NotificationDialog.__init__
+on_enter	manager/ManagerProgressbar.py	/^        def on_enter(evbox, event):$/;"	f	function:ManagerProgressbar.__init__
+on_event_clicked	manager/ManagerDeviceList.py	/^    def on_event_clicked(self, widget, event):$/;"	m	class:ManagerDeviceList
+on_expose	GtkAnimation.py	/^    def on_expose(self, widget, cr):$/;"	m	class:CellFade
+on_expose	GtkAnimation.py	/^    def on_expose(self, widget, cr):$/;"	m	class:TreeRowColorFade
+on_expose	GtkAnimation.py	/^    def on_expose(self, widget, cr):$/;"	m	class:TreeRowFade
+on_expose	GtkAnimation.py	/^    def on_expose(self, window, cr):$/;"	m	class:WidgetFade
+on_finished	MessageArea.py	/^        def on_finished(anim):$/;"	f	function:MessageArea._show_message
+on_finished	MessageArea.py	/^        def on_finished(anim):$/;"	f	function:MessageArea.on_close
+on_finished	manager/ManagerDeviceList.py	/^                    def on_finished(fader):$/;"	f	function:ManagerDeviceList.level_setup_event.rnd
+on_finished	manager/ManagerDeviceList.py	/^            def on_finished(fader):$/;"	f	function:ManagerDeviceList.device_remove_event
+on_finished	manager/ManagerDeviceList.py	/^            def on_finished(fader):$/;"	f	function:ManagerDeviceList.row_setup_event
+on_frozen	GtkAnimation.py	/^    def on_frozen(self, is_frozen):$/;"	m	class:AnimBase
+on_leave	Notification.py	/^        def on_leave(widget, event):$/;"	f	function:_NotificationDialog.__init__
+on_leave	manager/ManagerProgressbar.py	/^        def on_leave(evbox, event):$/;"	f	function:ManagerProgressbar.__init__
+on_more	MessageArea.py	/^    def on_more(self, button):$/;"	m	class:MessageArea
+on_notification_closed	Notification.py	/^        def on_notification_closed(n, *args):$/;"	f	function:_NotificationBubble.__new__
+on_prefs_toggled	applet/PluginDialog.py	/^    def on_prefs_toggled(self, button):$/;"	m	class:PluginDialog
+on_property_changed	DeviceList.py	/^    def on_property_changed(self, key, value):$/;"	m	class:DeviceList
+on_rename	manager/ManagerDeviceMenu.py	/^            def on_rename(_item, device):$/;"	f	function:ManagerDeviceMenu.Generate
+on_response	applet/PluginDialog.py	/^    def on_response(self, dialog, resp):$/;"	m	class:PluginDialog
+on_response	manager/ManagerDeviceMenu.py	/^                def on_response(dialog, response_id):$/;"	f	function:ManagerDeviceMenu.Generate.on_rename
+on_row_activated	DeviceSelectorDialog.py	/^    def on_row_activated(self, treeview, path, view_column, *args):$/;"	m	class:DeviceSelectorDialog
+on_search_clicked	DeviceSelectorWidget.py	/^    def on_search_clicked(self, button):$/;"	m	class:DeviceSelectorWidget
+on_selection_changed	DeviceList.py	/^    def on_selection_changed(self, selection):$/;"	m	class:DeviceList
+on_selection_changed	applet/PluginDialog.py	/^    def on_selection_changed(self, selection):$/;"	m	class:PluginDialog
+on_toggled	applet/PluginDialog.py	/^    def on_toggled(self, cellrenderer, path):$/;"	m	class:PluginDialog
+os	DeviceList.py	/^import os$/;"	i
+os	DeviceSelectorWidget.py	/^import os$/;"	i
+plugin_state_changed	applet/PluginDialog.py	/^    def plugin_state_changed(self, plugins, name, loaded):$/;"	m	class:PluginDialog
+populate	applet/PluginDialog.py	/^    def populate(self):$/;"	m	class:PluginDialog
+popup	manager/ManagerDeviceMenu.py	/^    def popup(self, *args):$/;"	m	class:ManagerDeviceMenu
+prepend	DeviceList.py	/^    def prepend(self, **columns):$/;"	m	class:DeviceList
+prepend	GenericList.py	/^    def prepend(self, **columns):$/;"	m	class:GenericList
+print_function	Animation.py	/^from __future__ import print_function$/;"	i
+print_function	CommonUi.py	/^from __future__ import print_function$/;"	i
+print_function	DeviceList.py	/^from __future__ import print_function$/;"	i
+print_function	DeviceSelectorDialog.py	/^from __future__ import print_function$/;"	i
+print_function	DeviceSelectorList.py	/^from __future__ import print_function$/;"	i
+print_function	DeviceSelectorWidget.py	/^from __future__ import print_function$/;"	i
+print_function	Dialogs.py	/^from __future__ import print_function$/;"	i
+print_function	GenericList.py	/^from __future__ import print_function$/;"	i
+print_function	GsmSettings.py	/^from __future__ import print_function$/;"	i
+print_function	GtkAnimation.py	/^from __future__ import print_function$/;"	i
+print_function	MessageArea.py	/^from __future__ import print_function$/;"	i
+print_function	Notification.py	/^from __future__ import print_function$/;"	i
+print_function	applet/PluginDialog.py	/^from __future__ import print_function$/;"	i
+print_function	manager/ManagerDeviceList.py	/^from __future__ import print_function$/;"	i
+print_function	manager/ManagerDeviceMenu.py	/^from __future__ import print_function$/;"	i
+print_function	manager/ManagerMenu.py	/^from __future__ import print_function$/;"	i
+print_function	manager/ManagerProgressbar.py	/^from __future__ import print_function$/;"	i
+print_function	manager/ManagerStats.py	/^from __future__ import print_function$/;"	i
+print_function	manager/ManagerToolbar.py	/^from __future__ import print_function$/;"	i
+pulse	manager/ManagerProgressbar.py	/^        def pulse():$/;"	f	function:ManagerProgressbar.start
+re	DeviceList.py	/^import re$/;"	i
+rfcomm_list	manager/ManagerDeviceMenu.py	/^from _blueman import rfcomm_list$/;"	i
+rnd	manager/ManagerDeviceList.py	/^        def rnd(value):$/;"	f	function:ManagerDeviceList.level_setup_event
+row_setup_event	DeviceList.py	/^    def row_setup_event(self, iter, device):$/;"	m	class:DeviceList
+row_setup_event	DeviceSelectorList.py	/^    def row_setup_event(self, iter, device):$/;"	m	class:DeviceSelectorList
+row_setup_event	manager/ManagerDeviceList.py	/^    def row_setup_event(self, iter, device):$/;"	m	class:ManagerDeviceList
+row_update_event	DeviceList.py	/^    def row_update_event(self, iter, key, value):$/;"	m	class:DeviceList
+row_update_event	DeviceSelectorList.py	/^    def row_update_event(self, iter, key, value):$/;"	m	class:DeviceSelectorList
+row_update_event	manager/ManagerDeviceList.py	/^    def row_update_event(self, iter, key, value):$/;"	m	class:ManagerDeviceList
+search_func	manager/ManagerDeviceList.py	/^    def search_func(self, model, column, key, iter):$/;"	m	class:ManagerDeviceList
+selected	GenericList.py	/^    def selected(self):$/;"	m	class:GenericList
+service_property_changed	manager/ManagerDeviceMenu.py	/^    def service_property_changed(self, key, value):$/;"	m	class:ManagerDeviceMenu
+set	DeviceList.py	/^    def set(self, iter, **kwargs):$/;"	m	class:DeviceList
+set	GenericList.py	/^    def set(self, id, **cols):$/;"	m	class:GenericList
+set_blinker_by_speed	manager/ManagerStats.py	/^    def set_blinker_by_speed(self, blinker, speed):$/;"	m	class:ManagerStats
+set_cancellable	manager/ManagerProgressbar.py	/^    def set_cancellable(self, b, hide=False):$/;"	m	class:ManagerProgressbar
+set_controller	GtkAnimation.py	/^    def set_controller(self, cls, *params):$/;"	m	class:AnimBase
+set_data	manager/ManagerStats.py	/^    def set_data(self, uploaded, u_name, downloaded, d_name, u_speed, us_name, d_speed, ds_name):$/;"	m	class:ManagerStats
+set_hint_int32	Notification.py	/^    def set_hint_int32(self, *args):$/;"	m	class:_NotificationDialog
+set_icon_from_pixbuf	Notification.py	/^    def set_icon_from_pixbuf(self, pixbuf):$/;"	m	class:_NotificationDialog
+set_label	manager/ManagerProgressbar.py	/^    def set_label(self, label):$/;"	m	class:ManagerProgressbar
+set_op	manager/ManagerDeviceMenu.py	/^    def set_op(self, device, message):$/;"	m	class:ManagerDeviceMenu
+set_rate	Animation.py	/^    def set_rate(self, rate):$/;"	m	class:Animation
+set_state	GtkAnimation.py	/^    def set_state(self, state):$/;"	m	class:AnimBase
+set_timeout	Notification.py	/^    def set_timeout(self, *args):$/;"	m	class:_NotificationDialog
+set_urgency	Notification.py	/^    def set_urgency(self, *args):$/;"	m	class:_NotificationDialog
+show	manager/ManagerProgressbar.py	/^    def show(self):$/;"	m	class:ManagerProgressbar
+show_about_dialog	CommonUi.py	/^def show_about_dialog(app_name, run=True):$/;"	f
+show_message	MessageArea.py	/^    def show_message(*args):$/;"	m	class:MessageArea
+start	Animation.py	/^    def start(self):$/;"	m	class:Animation
+start	manager/ManagerProgressbar.py	/^    def start(self):$/;"	m	class:ManagerProgressbar
+start_update	manager/ManagerStats.py	/^    def start_update(self):$/;"	m	class:ManagerStats
+started	manager/ManagerProgressbar.py	/^    def started(self):$/;"	m	class:ManagerProgressbar
+state_changed	GtkAnimation.py	/^    def state_changed(self, state):$/;"	m	class:AnimBase
+state_changed	GtkAnimation.py	/^    def state_changed(self, state):$/;"	m	class:CellFade
+state_changed	GtkAnimation.py	/^    def state_changed(self, state):$/;"	m	class:TreeRowFade
+state_changed	GtkAnimation.py	/^    def state_changed(self, state):$/;"	m	class:WidgetFade
+state_changed	Notification.py	/^    def state_changed(self, state):$/;"	m	class:Fade
+status	Animation.py	/^    def status(self):$/;"	m	class:Animation
+stop	Animation.py	/^    def stop(self):$/;"	m	class:Animation
+stop	manager/ManagerProgressbar.py	/^    def stop(self):$/;"	m	class:ManagerProgressbar
+stop_update	manager/ManagerStats.py	/^    def stop_update(self):$/;"	m	class:ManagerStats
+style_set	MessageArea.py	/^    def style_set(self, widget, prev_style):$/;"	m	class:MessageArea
+success	manager/ManagerDeviceMenu.py	/^        def success(*args2):$/;"	f	function:ManagerDeviceMenu.on_connect
+thaw	GtkAnimation.py	/^    def thaw(self):$/;"	m	class:AnimBase
+tooltip_query	manager/ManagerDeviceList.py	/^    def tooltip_query(self, tw, x, y, kb, tooltip):$/;"	m	class:ManagerDeviceList
+unicode_literals	Animation.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	CommonUi.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	DeviceList.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	DeviceSelectorDialog.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	DeviceSelectorList.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	DeviceSelectorWidget.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	Dialogs.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	GenericList.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	GsmSettings.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	GtkAnimation.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	MessageArea.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	Notification.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	applet/PluginDialog.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	manager/ManagerDeviceList.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	manager/ManagerDeviceMenu.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	manager/ManagerMenu.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	manager/ManagerProgressbar.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	manager/ManagerStats.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	manager/ManagerToolbar.py	/^from __future__ import unicode_literals$/;"	i
+unref	GtkAnimation.py	/^    def unref(self):$/;"	m	class:CellFade
+unref	GtkAnimation.py	/^    def unref(self):$/;"	m	class:TreeRowFade
+unset_op	manager/ManagerDeviceMenu.py	/^    def unset_op(self, device):$/;"	m	class:ManagerDeviceMenu
+update	DeviceList.py	/^        def update(row_ref, cinfo, address):$/;"	f	function:DeviceList.monitor_power_levels
+update	Notification.py	/^    def update(self, summary, message):$/;"	m	class:_NotificationDialog
+update_adapters_list	DeviceSelectorWidget.py	/^    def update_adapters_list(self):$/;"	m	class:DeviceSelectorWidget
+update_config_widget	applet/PluginDialog.py	/^    def update_config_widget(self, cls):$/;"	m	class:PluginDialog
+update_progress	DeviceList.py	/^    def update_progress(self, time, totaltime):$/;"	m	class:DeviceList
+update_send_browse	manager/ManagerToolbar.py	/^    def update_send_browse(self, device):$/;"	m	class:ManagerToolbar
+uuid128_to_uuid16	manager/ManagerDeviceMenu.py	/^from blueman.Sdp import uuid128_to_uuid16, SERIAL_PORT_SVCLASS_ID, OBEX_OBJPUSH_SVCLASS_ID, OBEX_FILETRANS_SVCLASS_ID$/;"	i
+wait_for_adapter	DeviceList.py	/^from blueman.Functions import wait_for_adapter, adapter_path_to_name, dprint$/;"	i
+weakref	GtkAnimation.py	/^import weakref$/;"	i
+weakref	applet/PluginDialog.py	/^import weakref$/;"	i

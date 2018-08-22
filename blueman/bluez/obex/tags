@@ -1,0 +1,149 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Agent	Agent.py	/^class Agent(_GDBusObject, dbus.service.Object, GObject.GObject):$/;"	c
+Agent	__init__.py	/^from blueman.bluez.obex.Agent import Agent$/;"	i
+AgentManager	AgentManager.py	/^class AgentManager(Base):$/;"	c
+AgentManager	__init__.py	/^from blueman.bluez.obex.AgentManager import AgentManager$/;"	i
+Authorize	Agent.py	/^    def Authorize(self, transfer_path, bt_address, name, _type, length, _time, reply_handler, error_handler):$/;"	m	class:Agent
+AuthorizePush	Agent.py	/^    def AuthorizePush(self, transfer_path, reply_handler, error_handler):$/;"	m	class:Agent
+Base	AgentManager.py	/^from blueman.bluez.obex.Base import Base$/;"	i
+Base	Base.py	/^class Base(GObject):$/;"	c
+Base	Client.py	/^from blueman.bluez.obex.Base import Base$/;"	i
+Base	Manager.py	/^from blueman.bluez.obex.Base import Base$/;"	i
+Base	ObjectPush.py	/^from blueman.bluez.obex.Base import Base$/;"	i
+Base	Session.py	/^from blueman.bluez.obex.Base import Base$/;"	i
+Base	Transfer.py	/^from blueman.bluez.obex.Base import Base$/;"	i
+Cancel	Agent.py	/^    def Cancel(self):$/;"	m	class:Agent
+Canceled	Error.py	/^class Canceled(Error):$/;"	c
+Client	Client.py	/^class Client(Base):$/;"	c
+Client	__init__.py	/^from blueman.bluez.obex.Client import Client$/;"	i
+DBusServiceUnknownError	Base.py	/^from blueman.bluez.errors import raise_dbus_error, DBusServiceUnknownError$/;"	i
+Error	Agent.py	/^from blueman.bluez.obex.Error import Error$/;"	i
+Error	Error.py	/^class Error(object):$/;"	c
+Error	__init__.py	/^from blueman.bluez.obex import Error$/;"	i
+GObject	Agent.py	/^from gi.repository import GObject$/;"	i
+GObject	Base.py	/^from gi.repository.GObject import GObject$/;"	i
+GObject	Client.py	/^from gi.repository import GObject$/;"	i
+GObject	Manager.py	/^from gi.repository import GObject$/;"	i
+GObject	ObjectPush.py	/^from gi.repository import GObject$/;"	i
+GObject	Transfer.py	/^from gi.repository import GObject$/;"	i
+GObjectMeta	Agent.py	/^from gi.types import GObjectMeta$/;"	i
+Manager	Manager.py	/^class Manager(Base):$/;"	c
+Manager	__init__.py	/^from blueman.bluez.obex.Manager import Manager$/;"	i
+ObexdNotFoundError	Base.py	/^class ObexdNotFoundError(Exception):$/;"	c
+ObjectPush	ObjectPush.py	/^class ObjectPush(Base):$/;"	c
+ObjectPush	__init__.py	/^from blueman.bluez.obex.ObjectPush import ObjectPush$/;"	i
+Rejected	Error.py	/^class Rejected(Error):$/;"	c
+Release	Agent.py	/^    def Release(self):$/;"	m	class:Agent
+Session	Session.py	/^class Session(Base):$/;"	c
+Session	__init__.py	/^from blueman.bluez.obex.Session import Session$/;"	i
+SignalTracker	Base.py	/^from blueman.main.SignalTracker import SignalTracker$/;"	i
+Transfer	Manager.py	/^from blueman.bluez.obex.Transfer import Transfer$/;"	i
+Transfer	Transfer.py	/^class Transfer(Base):$/;"	c
+Transfer	__init__.py	/^from blueman.bluez.obex.Transfer import Transfer$/;"	i
+_GDBusObject	Agent.py	/^_GDBusObject = _GDbusObjectType(str('_GDBusObject'), (dbus.service.Object, GObject.GObject), {})$/;"	v
+_GDbusObjectType	Agent.py	/^class _GDbusObjectType(dbus.service.InterfaceType, GObjectMeta):$/;"	c
+__del__	Base.py	/^    def __del__(self):$/;"	m	class:Base	file:
+__getattr__	Transfer.py	/^    def __getattr__(self, name):$/;"	m	class:Transfer	file:
+__gsignals__	Agent.py	/^    __gsignals__ = {$/;"	v	class:Agent
+__gsignals__	Client.py	/^    __gsignals__ = {$/;"	v	class:Client
+__gsignals__	Manager.py	/^    __gsignals__ = {$/;"	v	class:Manager
+__gsignals__	ObjectPush.py	/^    __gsignals__ = {$/;"	v	class:ObjectPush
+__gsignals__	Transfer.py	/^    __gsignals__ = {$/;"	v	class:Transfer
+__init__	Agent.py	/^    def __init__(self, agent_path):$/;"	m	class:Agent
+__init__	AgentManager.py	/^    def __init__(self):$/;"	m	class:AgentManager
+__init__	Base.py	/^    def __init__(self, interface_name, obj_path, legacy_client_bus=False):$/;"	m	class:Base
+__init__	Client.py	/^    def __init__(self):$/;"	m	class:Client
+__init__	Error.py	/^    def __init__(self):$/;"	m	class:Error
+__init__	Manager.py	/^    def __init__(self):$/;"	m	class:Manager
+__init__	ObjectPush.py	/^    def __init__(self, session_path):$/;"	m	class:ObjectPush
+__init__	Session.py	/^    def __init__(self, session_path):$/;"	m	class:Session
+__init__	Transfer.py	/^    def __init__(self, transfer_path):$/;"	m	class:Transfer
+_handle_signal	Base.py	/^    def _handle_signal(self, handler, signal):$/;"	m	class:Base
+_interface	Base.py	/^    def _interface(self):$/;"	m	class:Base
+_on_complete	Transfer.py	/^    def _on_complete(self):$/;"	m	class:Transfer
+_on_error	Transfer.py	/^    def _on_error(self, code, message):$/;"	m	class:Transfer
+_on_properties_changed	Transfer.py	/^    def _on_properties_changed(self, interface_name, changed_properties, _invalidated_properties):$/;"	m	class:Transfer
+_on_property_changed	Transfer.py	/^    def _on_property_changed(self, name, value):$/;"	m	class:Transfer
+_on_session_removed	Manager.py	/^    def _on_session_removed(self, session_path):$/;"	m	class:Manager
+_on_transfer_completed	Manager.py	/^    def _on_transfer_completed(self, transfer_path, success):$/;"	m	class:Manager
+_on_transfer_started	Manager.py	/^    def _on_transfer_started(self, transfer_path):$/;"	m	class:Manager
+absolute_import	Agent.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	AgentManager.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	Base.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	Client.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	Error.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	Manager.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	ObjectPush.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	Transfer.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	__init__.py	/^from __future__ import absolute_import$/;"	i
+address	Session.py	/^    def address(self):$/;"	m	class:Session
+create_session	Client.py	/^    def create_session(self, dest_addr, source_addr="00:00:00:00:00:00", pattern="opp"):$/;"	m	class:Client
+dbus	Agent.py	/^import dbus$/;"	i
+dbus	Agent.py	/^import dbus.service$/;"	i
+dbus	Base.py	/^import dbus$/;"	i
+division	Agent.py	/^from __future__ import division$/;"	i
+division	AgentManager.py	/^from __future__ import division$/;"	i
+division	Base.py	/^from __future__ import division$/;"	i
+division	Client.py	/^from __future__ import division$/;"	i
+division	Error.py	/^from __future__ import division$/;"	i
+division	Manager.py	/^from __future__ import division$/;"	i
+division	ObjectPush.py	/^from __future__ import division$/;"	i
+division	Transfer.py	/^from __future__ import division$/;"	i
+division	__init__.py	/^from __future__ import division$/;"	i
+dprint	Agent.py	/^from blueman.Functions import dprint$/;"	i
+dprint	AgentManager.py	/^from blueman.Functions import dprint$/;"	i
+dprint	Base.py	/^from blueman.Functions import dprint$/;"	i
+dprint	Client.py	/^from blueman.Functions import dprint$/;"	i
+dprint	Manager.py	/^from blueman.Functions import dprint$/;"	i
+dprint	ObjectPush.py	/^from blueman.Functions import dprint$/;"	i
+dprint	Transfer.py	/^from blueman.Functions import dprint$/;"	i
+get_interface_version	Base.py	/^    def get_interface_version():$/;"	m	class:Base
+get_session_path	ObjectPush.py	/^    def get_session_path(self):$/;"	m	class:ObjectPush
+interface_version	Base.py	/^    interface_version = None$/;"	v	class:Base
+isclass	Agent.py	/^from inspect import isclass$/;"	i
+object_path	Base.py	/^    def object_path(self):$/;"	m	class:Base
+on_interfaces_added	Manager.py	/^            def on_interfaces_added(object_path, interfaces):$/;"	f	function:Manager.__init__
+on_interfaces_removed	Manager.py	/^            def on_interfaces_removed(object_path, interfaces):$/;"	f	function:Manager.__init__
+on_register_failed	AgentManager.py	/^        def on_register_failed(error):$/;"	f	function:AgentManager.register_agent
+on_registered	AgentManager.py	/^        def on_registered():$/;"	f	function:AgentManager.register_agent
+on_session_created	Client.py	/^        def on_session_created(session_path):$/;"	f	function:Client.create_session
+on_session_failed	Client.py	/^        def on_session_failed(error):$/;"	f	function:Client.create_session
+on_session_remove_failed	Client.py	/^        def on_session_remove_failed(error):$/;"	f	function:Client.remove_session
+on_session_removed	Client.py	/^        def on_session_removed():$/;"	f	function:Client.remove_session
+on_tranfer_completed	Manager.py	/^                    def on_tranfer_completed(_transfer):$/;"	f	function:Manager.__init__.on_interfaces_added
+on_tranfer_error	Manager.py	/^                    def on_tranfer_error(_transfer, _msg):$/;"	f	function:Manager.__init__.on_interfaces_added
+on_transfer_error	ObjectPush.py	/^        def on_transfer_error(error):$/;"	f	function:ObjectPush.send_file
+on_transfer_started	ObjectPush.py	/^        def on_transfer_started(*params):$/;"	f	function:ObjectPush.send_file
+on_unregister_failed	AgentManager.py	/^        def on_unregister_failed(error):$/;"	f	function:AgentManager.unregister_agent
+on_unregistered	AgentManager.py	/^        def on_unregistered():$/;"	f	function:AgentManager.unregister_agent
+print_function	Agent.py	/^from __future__ import print_function$/;"	i
+print_function	AgentManager.py	/^from __future__ import print_function$/;"	i
+print_function	Base.py	/^from __future__ import print_function$/;"	i
+print_function	Client.py	/^from __future__ import print_function$/;"	i
+print_function	Error.py	/^from __future__ import print_function$/;"	i
+print_function	Manager.py	/^from __future__ import print_function$/;"	i
+print_function	ObjectPush.py	/^from __future__ import print_function$/;"	i
+print_function	Transfer.py	/^from __future__ import print_function$/;"	i
+print_function	__init__.py	/^from __future__ import print_function$/;"	i
+raise_dbus_error	Base.py	/^from blueman.bluez.errors import raise_dbus_error, DBusServiceUnknownError$/;"	i
+register_agent	AgentManager.py	/^    def register_agent(self, agent_path):$/;"	m	class:AgentManager
+remove_session	Client.py	/^    def remove_session(self, session_path):$/;"	m	class:Client
+reply	Agent.py	/^    def reply(self, reply):$/;"	m	class:Agent
+root	Session.py	/^    def root(self):$/;"	m	class:Session
+send_file	ObjectPush.py	/^    def send_file(self, file_path):$/;"	m	class:ObjectPush
+service	Agent.py	/^import dbus.service$/;"	i
+unicode_literals	Agent.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	AgentManager.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	Base.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	Client.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	Error.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	Manager.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	ObjectPush.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	Transfer.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	__init__.py	/^from __future__ import unicode_literals$/;"	i
+unregister_agent	AgentManager.py	/^    def unregister_agent(self, agent_path):$/;"	m	class:AgentManager

@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+GenericList	PluginDialog.py	/^from blueman.gui.GenericList import GenericList$/;"	i
+Gtk	PluginDialog.py	/^from gi.repository import Gtk$/;"	i
+PluginDialog	PluginDialog.py	/^class PluginDialog(Gtk.Dialog):$/;"	c
+SettingsWidget	PluginDialog.py	/^class SettingsWidget(Gtk.VBox):$/;"	c
+__init__	PluginDialog.py	/^    def __init__(self, applet):$/;"	m	class:PluginDialog
+__init__	PluginDialog.py	/^    def __init__(self, inst):$/;"	m	class:SettingsWidget
+absolute_import	PluginDialog.py	/^from __future__ import absolute_import$/;"	i
+construct_settings	PluginDialog.py	/^    def construct_settings(self):$/;"	m	class:SettingsWidget
+division	PluginDialog.py	/^from __future__ import division$/;"	i
+get_control_widget	PluginDialog.py	/^    def get_control_widget(self, opt, params):$/;"	m	class:SettingsWidget
+gi	PluginDialog.py	/^import gi$/;"	i
+handle_change	PluginDialog.py	/^    def handle_change(self, widget, opt, params, prop):$/;"	m	class:SettingsWidget
+list_compare_func	PluginDialog.py	/^    def list_compare_func(self, treemodel, iter1, iter2, user_data):$/;"	m	class:PluginDialog
+on_prefs_toggled	PluginDialog.py	/^    def on_prefs_toggled(self, button):$/;"	m	class:PluginDialog
+on_response	PluginDialog.py	/^    def on_response(self, dialog, resp):$/;"	m	class:PluginDialog
+on_selection_changed	PluginDialog.py	/^    def on_selection_changed(self, selection):$/;"	m	class:PluginDialog
+on_toggled	PluginDialog.py	/^    def on_toggled(self, cellrenderer, path):$/;"	m	class:PluginDialog
+plugin_state_changed	PluginDialog.py	/^    def plugin_state_changed(self, plugins, name, loaded):$/;"	m	class:PluginDialog
+populate	PluginDialog.py	/^    def populate(self):$/;"	m	class:PluginDialog
+print_function	PluginDialog.py	/^from __future__ import print_function$/;"	i
+unicode_literals	PluginDialog.py	/^from __future__ import unicode_literals$/;"	i
+update_config_widget	PluginDialog.py	/^    def update_config_widget(self, cls):$/;"	m	class:PluginDialog
+weakref	PluginDialog.py	/^import weakref$/;"	i

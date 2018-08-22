@@ -1,0 +1,362 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Adapter	Adapter.py	/^class Adapter(PropertiesBlueZInterface):$/;"	c
+Adapter	Manager.py	/^from blueman.bluez.Adapter import Adapter$/;"	i
+Adapter	__init__.py	/^from blueman.bluez.Adapter import Adapter$/;"	i
+Agent	Agent.py	/^class Agent(dbus.service.Object):$/;"	c
+Agent	obex/Agent.py	/^class Agent(_GDBusObject, dbus.service.Object, GObject.GObject):$/;"	c
+Agent	obex/__init__.py	/^from blueman.bluez.obex.Agent import Agent$/;"	i
+AgentManager	AgentManager.py	/^class AgentManager(BlueZInterface):$/;"	c
+AgentManager	__init__.py	/^from blueman.bluez.AgentManager import AgentManager$/;"	i
+AgentManager	obex/AgentManager.py	/^class AgentManager(Base):$/;"	c
+AgentManager	obex/__init__.py	/^from blueman.bluez.obex.AgentManager import AgentManager$/;"	i
+AgentMethod	Agent.py	/^def AgentMethod(func):$/;"	f
+Authorize	Agent.py	/^    def Authorize(self, device, uuid):$/;"	m	class:Agent
+Authorize	obex/Agent.py	/^    def Authorize(self, transfer_path, bt_address, name, _type, length, _time, reply_handler, error_handler):$/;"	m	class:Agent
+AuthorizePush	obex/Agent.py	/^    def AuthorizePush(self, transfer_path, reply_handler, error_handler):$/;"	m	class:Agent
+AuthorizeService	Agent.py	/^    def AuthorizeService(self, device, uuid):$/;"	m	class:Agent
+Base	obex/AgentManager.py	/^from blueman.bluez.obex.Base import Base$/;"	i
+Base	obex/Base.py	/^class Base(GObject):$/;"	c
+Base	obex/Client.py	/^from blueman.bluez.obex.Base import Base$/;"	i
+Base	obex/Manager.py	/^from blueman.bluez.obex.Base import Base$/;"	i
+Base	obex/ObjectPush.py	/^from blueman.bluez.obex.Base import Base$/;"	i
+Base	obex/Session.py	/^from blueman.bluez.obex.Base import Base$/;"	i
+Base	obex/Transfer.py	/^from blueman.bluez.obex.Base import Base$/;"	i
+BlueZInterface	Agent.py	/^from blueman.bluez.BlueZInterface import BlueZInterface$/;"	i
+BlueZInterface	AgentManager.py	/^from blueman.bluez.BlueZInterface import BlueZInterface$/;"	i
+BlueZInterface	BlueZInterface.py	/^class BlueZInterface(object):$/;"	c
+BlueZInterface	PropertiesBlueZInterface.py	/^from blueman.bluez.BlueZInterface import BlueZInterface$/;"	i
+BluezDBusException	errors.py	/^class BluezDBusException(Exception):$/;"	c
+BluezUnavailableAgentMethodError	errors.py	/^class BluezUnavailableAgentMethodError(BluezDBusException):$/;"	c
+Cancel	Agent.py	/^    def Cancel(self):$/;"	m	class:Agent
+Cancel	obex/Agent.py	/^    def Cancel(self):$/;"	m	class:Agent
+Canceled	obex/Error.py	/^class Canceled(Error):$/;"	c
+Client	obex/Client.py	/^class Client(Base):$/;"	c
+Client	obex/__init__.py	/^from blueman.bluez.obex.Client import Client$/;"	i
+DBusAlreadyExistsError	errors.py	/^class DBusAlreadyExistsError(BluezDBusException):$/;"	c
+DBusAuthenticationCanceledError	errors.py	/^class DBusAuthenticationCanceledError(BluezDBusException):$/;"	c
+DBusAuthenticationFailedError	errors.py	/^class DBusAuthenticationFailedError(BluezDBusException):$/;"	c
+DBusAuthenticationRejectedError	errors.py	/^class DBusAuthenticationRejectedError(BluezDBusException):$/;"	c
+DBusAuthenticationTimeoutError	errors.py	/^class DBusAuthenticationTimeoutError(BluezDBusException):$/;"	c
+DBusConnectionAttemptFailedError	errors.py	/^class DBusConnectionAttemptFailedError(BluezDBusException):$/;"	c
+DBusDoesNotExistError	errors.py	/^class DBusDoesNotExistError(BluezDBusException):$/;"	c
+DBusFailedError	errors.py	/^class DBusFailedError(BluezDBusException):$/;"	c
+DBusGMainLoop	Manager.py	/^from dbus.mainloop.glib import DBusGMainLoop$/;"	i
+DBusInProgressError	errors.py	/^class DBusInProgressError(BluezDBusException):$/;"	c
+DBusInvalidArgumentsError	errors.py	/^class DBusInvalidArgumentsError(BluezDBusException):$/;"	c
+DBusMainLoopModuleNotFoundError	errors.py	/^class DBusMainLoopModuleNotFoundError(BluezDBusException):$/;"	c
+DBusMainLoopNotSupportedError	errors.py	/^class DBusMainLoopNotSupportedError(BluezDBusException):$/;"	c
+DBusNoReplyError	errors.py	/^class DBusNoReplyError(BluezDBusException):$/;"	c
+DBusNoSuchAdapterError	Manager.py	/^from blueman.bluez.errors import raise_dbus_error, DBusNoSuchAdapterError$/;"	i
+DBusNoSuchAdapterError	errors.py	/^class DBusNoSuchAdapterError(BluezDBusException):$/;"	c
+DBusNotAuthorizedError	errors.py	/^class DBusNotAuthorizedError(BluezDBusException):$/;"	c
+DBusNotAvailableError	errors.py	/^class DBusNotAvailableError(BluezDBusException):$/;"	c
+DBusNotConnectedError	errors.py	/^class DBusNotConnectedError(BluezDBusException):$/;"	c
+DBusNotReadyError	errors.py	/^class DBusNotReadyError(BluezDBusException):$/;"	c
+DBusNotSupportedError	errors.py	/^class DBusNotSupportedError(BluezDBusException):$/;"	c
+DBusOutOfMemoryError	errors.py	/^class DBusOutOfMemoryError(BluezDBusException):$/;"	c
+DBusServiceUnknownError	errors.py	/^class DBusServiceUnknownError(BluezDBusException):$/;"	c
+DBusServiceUnknownError	obex/Base.py	/^from blueman.bluez.errors import raise_dbus_error, DBusServiceUnknownError$/;"	i
+DBusUnsupportedMajorClassError	errors.py	/^class DBusUnsupportedMajorClassError(BluezDBusException):$/;"	c
+Device	Adapter.py	/^from blueman.bluez.Device import Device$/;"	i
+Device	Device.py	/^class Device(PropertiesBlueZInterface):$/;"	c
+Device	__init__.py	/^from blueman.bluez.Device import Device$/;"	i
+DisplayPasskey	Agent.py	/^    def DisplayPasskey(self, device, passkey, entered):$/;"	m	class:Agent
+DisplayPinCode	Agent.py	/^    def DisplayPinCode(self, device, pin_code):$/;"	m	class:Agent
+Error	obex/Agent.py	/^from blueman.bluez.obex.Error import Error$/;"	i
+Error	obex/Error.py	/^class Error(object):$/;"	c
+Error	obex/__init__.py	/^from blueman.bluez.obex import Error$/;"	i
+GObject	obex/Agent.py	/^from gi.repository import GObject$/;"	i
+GObject	obex/Base.py	/^from gi.repository.GObject import GObject$/;"	i
+GObject	obex/Client.py	/^from gi.repository import GObject$/;"	i
+GObject	obex/Manager.py	/^from gi.repository import GObject$/;"	i
+GObject	obex/ObjectPush.py	/^from gi.repository import GObject$/;"	i
+GObject	obex/Transfer.py	/^from gi.repository import GObject$/;"	i
+GObjectMeta	obex/Agent.py	/^from gi.types import GObjectMeta$/;"	i
+Headset	Headset.py	/^class Headset(PropertiesBlueZInterface):$/;"	c
+Manager	Manager.py	/^class Manager(PropertiesBlueZInterface):$/;"	c
+Manager	__init__.py	/^from blueman.bluez.Manager import Manager$/;"	i
+Manager	obex/Manager.py	/^class Manager(Base):$/;"	c
+Manager	obex/__init__.py	/^from blueman.bluez.obex.Manager import Manager$/;"	i
+Network	Network.py	/^class Network(PropertiesBlueZInterface):$/;"	c
+NetworkServer	NetworkServer.py	/^class NetworkServer(PropertiesBlueZInterface):$/;"	c
+ObexdNotFoundError	obex/Base.py	/^class ObexdNotFoundError(Exception):$/;"	c
+ObjectPush	obex/ObjectPush.py	/^class ObjectPush(Base):$/;"	c
+ObjectPush	obex/__init__.py	/^from blueman.bluez.obex.ObjectPush import ObjectPush$/;"	i
+PropertiesBlueZInterface	Adapter.py	/^from blueman.bluez.PropertiesBlueZInterface import PropertiesBlueZInterface$/;"	i
+PropertiesBlueZInterface	Device.py	/^from blueman.bluez.PropertiesBlueZInterface import PropertiesBlueZInterface$/;"	i
+PropertiesBlueZInterface	Headset.py	/^from blueman.bluez.PropertiesBlueZInterface import PropertiesBlueZInterface$/;"	i
+PropertiesBlueZInterface	Manager.py	/^from blueman.bluez.PropertiesBlueZInterface import PropertiesBlueZInterface$/;"	i
+PropertiesBlueZInterface	Network.py	/^from blueman.bluez.PropertiesBlueZInterface import PropertiesBlueZInterface$/;"	i
+PropertiesBlueZInterface	NetworkServer.py	/^from blueman.bluez.PropertiesBlueZInterface import PropertiesBlueZInterface$/;"	i
+PropertiesBlueZInterface	PropertiesBlueZInterface.py	/^class PropertiesBlueZInterface(BlueZInterface):$/;"	c
+Rejected	obex/Error.py	/^class Rejected(Error):$/;"	c
+Release	Agent.py	/^    def Release(self):$/;"	m	class:Agent
+Release	obex/Agent.py	/^    def Release(self):$/;"	m	class:Agent
+RequestAuthorization	Agent.py	/^    def RequestAuthorization(self, device):$/;"	m	class:Agent
+RequestConfirmation	Agent.py	/^    def RequestConfirmation(self, device, passkey):$/;"	m	class:Agent
+RequestPasskey	Agent.py	/^    def RequestPasskey(self, device, _ok, _err):$/;"	m	class:Agent
+RequestPinCode	Agent.py	/^    def RequestPinCode(self, device, _ok, _err):$/;"	m	class:Agent
+Session	obex/Session.py	/^class Session(Base):$/;"	c
+Session	obex/__init__.py	/^from blueman.bluez.obex.Session import Session$/;"	i
+SignalTracker	obex/Base.py	/^from blueman.main.SignalTracker import SignalTracker$/;"	i
+Transfer	obex/Manager.py	/^from blueman.bluez.obex.Transfer import Transfer$/;"	i
+Transfer	obex/Transfer.py	/^class Transfer(Base):$/;"	c
+Transfer	obex/__init__.py	/^from blueman.bluez.obex.Transfer import Transfer$/;"	i
+_GDBusObject	obex/Agent.py	/^_GDBusObject = _GDbusObjectType(str('_GDBusObject'), (dbus.service.Object, GObject.GObject), {})$/;"	v
+_GDbusObjectType	obex/Agent.py	/^class _GDbusObjectType(dbus.service.InterfaceType, GObjectMeta):$/;"	c
+__DICT_ERROR__	errors.py	/^__DICT_ERROR__ = {'org.bluez.Error.Failed:': DBusFailedError,$/;"	v
+__SIGNATURES__	Agent.py	/^__SIGNATURES__ = {$/;"	v
+__del__	obex/Base.py	/^    def __del__(self):$/;"	m	class:Base	file:
+__getattr__	obex/Transfer.py	/^    def __getattr__(self, name):$/;"	m	class:Transfer	file:
+__gsignals__	obex/Agent.py	/^    __gsignals__ = {$/;"	v	class:Agent
+__gsignals__	obex/Client.py	/^    __gsignals__ = {$/;"	v	class:Client
+__gsignals__	obex/Manager.py	/^    __gsignals__ = {$/;"	v	class:Manager
+__gsignals__	obex/ObjectPush.py	/^    __gsignals__ = {$/;"	v	class:ObjectPush
+__gsignals__	obex/Transfer.py	/^    __gsignals__ = {$/;"	v	class:Transfer
+__init__	Adapter.py	/^    def __init__(self, obj_path=None):$/;"	m	class:Adapter
+__init__	Agent.py	/^    def __init__(self, obj_path):$/;"	m	class:Agent
+__init__	AgentManager.py	/^    def __init__(self):$/;"	m	class:AgentManager
+__init__	BlueZInterface.py	/^    def __init__(self, interface_name, obj_path):$/;"	m	class:BlueZInterface
+__init__	Device.py	/^    def __init__(self, obj_path=None):$/;"	m	class:Device
+__init__	Headset.py	/^    def __init__(self, obj_path=None):$/;"	m	class:Headset
+__init__	Manager.py	/^    def __init__(self):$/;"	m	class:Manager
+__init__	Network.py	/^    def __init__(self, obj_path=None):$/;"	m	class:Network
+__init__	NetworkServer.py	/^    def __init__(self, obj_path):$/;"	m	class:NetworkServer
+__init__	PropertiesBlueZInterface.py	/^    def __init__(self, interface, obj_path):$/;"	m	class:PropertiesBlueZInterface
+__init__	errors.py	/^    def __init__(self, reason):$/;"	m	class:BluezDBusException
+__init__	obex/Agent.py	/^    def __init__(self, agent_path):$/;"	m	class:Agent
+__init__	obex/AgentManager.py	/^    def __init__(self):$/;"	m	class:AgentManager
+__init__	obex/Base.py	/^    def __init__(self, interface_name, obj_path, legacy_client_bus=False):$/;"	m	class:Base
+__init__	obex/Client.py	/^    def __init__(self):$/;"	m	class:Client
+__init__	obex/Error.py	/^    def __init__(self):$/;"	m	class:Error
+__init__	obex/Manager.py	/^    def __init__(self):$/;"	m	class:Manager
+__init__	obex/ObjectPush.py	/^    def __init__(self, session_path):$/;"	m	class:ObjectPush
+__init__	obex/Session.py	/^    def __init__(self, session_path):$/;"	m	class:Session
+__init__	obex/Transfer.py	/^    def __init__(self, transfer_path):$/;"	m	class:Transfer
+__str__	errors.py	/^    def __str__(self):$/;"	m	class:BluezDBusException	file:
+_handle_signal	PropertiesBlueZInterface.py	/^    def _handle_signal(self, handler, signal, interface, obj_path, **kwargs):$/;"	m	class:PropertiesBlueZInterface
+_handle_signal	obex/Base.py	/^    def _handle_signal(self, handler, signal):$/;"	m	class:Base
+_interface	obex/Base.py	/^    def _interface(self):$/;"	m	class:Base
+_on_complete	obex/Transfer.py	/^    def _on_complete(self):$/;"	m	class:Transfer
+_on_error	obex/Transfer.py	/^    def _on_error(self, code, message):$/;"	m	class:Transfer
+_on_properties_changed	obex/Transfer.py	/^    def _on_properties_changed(self, interface_name, changed_properties, _invalidated_properties):$/;"	m	class:Transfer
+_on_property_changed	obex/Transfer.py	/^    def _on_property_changed(self, name, value):$/;"	m	class:Transfer
+_on_session_removed	obex/Manager.py	/^    def _on_session_removed(self, session_path):$/;"	m	class:Manager
+_on_transfer_completed	obex/Manager.py	/^    def _on_transfer_completed(self, transfer_path, success):$/;"	m	class:Manager
+_on_transfer_started	obex/Manager.py	/^    def _on_transfer_started(self, transfer_path):$/;"	m	class:Manager
+_unhandle_signal	PropertiesBlueZInterface.py	/^    def _unhandle_signal(self, handler, signal, interface, obj_path, **kwargs):$/;"	m	class:PropertiesBlueZInterface
+absolute_import	Adapter.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	Agent.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	AgentManager.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	BlueZInterface.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	Device.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	Headset.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	Manager.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	Network.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	NetworkServer.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	PropertiesBlueZInterface.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	__init__.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	errors.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	obex/Agent.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	obex/AgentManager.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	obex/Base.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	obex/Client.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	obex/Error.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	obex/Manager.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	obex/ObjectPush.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	obex/Transfer.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	obex/__init__.py	/^from __future__ import absolute_import$/;"	i
+address	obex/Session.py	/^    def address(self):$/;"	m	class:Session
+blueman	Agent.py	/^import blueman.bluez.errors as errors$/;"	i
+blueman	__init__.py	/^import blueman.bluez.errors$/;"	i
+bluez	Agent.py	/^import blueman.bluez.errors as errors$/;"	i
+bluez	__init__.py	/^import blueman.bluez.errors$/;"	i
+connect	Device.py	/^    def connect(self, reply_handler=None, error_handler=None):$/;"	m	class:Device
+connect	Network.py	/^    def connect(self, uuid, reply_handler=None, error_handler=None):$/;"	m	class:Network
+create_device	Adapter.py	/^    def create_device(self, address, reply_handler=None, error_handler=None):$/;"	m	class:Adapter
+create_paired_device	Adapter.py	/^    def create_paired_device(self, address, agent_path, capability, error_handler=None, reply_handler=None, timeout=120):$/;"	m	class:Adapter
+create_session	obex/Client.py	/^    def create_session(self, dest_addr, source_addr="00:00:00:00:00:00", pattern="opp"):$/;"	m	class:Client
+dbus	Adapter.py	/^import dbus$/;"	i
+dbus	Agent.py	/^import dbus.service$/;"	i
+dbus	AgentManager.py	/^import dbus$/;"	i
+dbus	BlueZInterface.py	/^import dbus$/;"	i
+dbus	Device.py	/^import dbus$/;"	i
+dbus	PropertiesBlueZInterface.py	/^import dbus$/;"	i
+dbus	errors.py	/^import dbus$/;"	i
+dbus	obex/Agent.py	/^import dbus$/;"	i
+dbus	obex/Agent.py	/^import dbus.service$/;"	i
+dbus	obex/Base.py	/^import dbus$/;"	i
+disconnect	Device.py	/^    def disconnect(self, reply_handler=None, error_handler=None):$/;"	m	class:Device
+disconnect	Network.py	/^    def disconnect(self, reply_handler=None, error_handler=None):$/;"	m	class:Network
+division	Adapter.py	/^from __future__ import division$/;"	i
+division	Agent.py	/^from __future__ import division$/;"	i
+division	AgentManager.py	/^from __future__ import division$/;"	i
+division	BlueZInterface.py	/^from __future__ import division$/;"	i
+division	Device.py	/^from __future__ import division$/;"	i
+division	Headset.py	/^from __future__ import division$/;"	i
+division	Manager.py	/^from __future__ import division$/;"	i
+division	Network.py	/^from __future__ import division$/;"	i
+division	NetworkServer.py	/^from __future__ import division$/;"	i
+division	PropertiesBlueZInterface.py	/^from __future__ import division$/;"	i
+division	__init__.py	/^from __future__ import division$/;"	i
+division	errors.py	/^from __future__ import division$/;"	i
+division	obex/Agent.py	/^from __future__ import division$/;"	i
+division	obex/AgentManager.py	/^from __future__ import division$/;"	i
+division	obex/Base.py	/^from __future__ import division$/;"	i
+division	obex/Client.py	/^from __future__ import division$/;"	i
+division	obex/Error.py	/^from __future__ import division$/;"	i
+division	obex/Manager.py	/^from __future__ import division$/;"	i
+division	obex/ObjectPush.py	/^from __future__ import division$/;"	i
+division	obex/Transfer.py	/^from __future__ import division$/;"	i
+division	obex/__init__.py	/^from __future__ import division$/;"	i
+dom	Device.py	/^import xml.dom.minidom$/;"	i
+dprint	Agent.py	/^from blueman.Functions import dprint$/;"	i
+dprint	BlueZInterface.py	/^from blueman.Functions import dprint$/;"	i
+dprint	obex/Agent.py	/^from blueman.Functions import dprint$/;"	i
+dprint	obex/AgentManager.py	/^from blueman.Functions import dprint$/;"	i
+dprint	obex/Base.py	/^from blueman.Functions import dprint$/;"	i
+dprint	obex/Client.py	/^from blueman.Functions import dprint$/;"	i
+dprint	obex/Manager.py	/^from blueman.Functions import dprint$/;"	i
+dprint	obex/ObjectPush.py	/^from blueman.Functions import dprint$/;"	i
+dprint	obex/Transfer.py	/^from blueman.Functions import dprint$/;"	i
+err	Device.py	/^        def err(e):$/;"	f	function:Device.connect
+err	Device.py	/^        def err(e):$/;"	f	function:Device.disconnect
+err	Device.py	/^        def err(e):$/;"	f	function:Device.pair
+error_handler_wrapper	Adapter.py	/^        def error_handler_wrapper(exception):$/;"	f	function:Adapter.create_device
+error_handler_wrapper	Adapter.py	/^        def error_handler_wrapper(exception):$/;"	f	function:Adapter.create_paired_device
+errors	Agent.py	/^import blueman.bluez.errors as errors$/;"	i
+errors	__init__.py	/^import blueman.bluez.errors$/;"	i
+find_device	Adapter.py	/^    def find_device(self, address):$/;"	m	class:Adapter
+get_adapter	Manager.py	/^    def get_adapter(self, pattern=None):$/;"	m	class:Manager
+get_bus	BlueZInterface.py	/^    def get_bus(self):$/;"	m	class:BlueZInterface
+get_dbus_proxy	BlueZInterface.py	/^    def get_dbus_proxy(self):$/;"	m	class:BlueZInterface
+get_interface	BlueZInterface.py	/^    def get_interface(self):$/;"	m	class:BlueZInterface
+get_interface_name	BlueZInterface.py	/^    def get_interface_name(self):$/;"	m	class:BlueZInterface
+get_interface_version	BlueZInterface.py	/^    def get_interface_version():$/;"	m	class:BlueZInterface
+get_interface_version	obex/Base.py	/^    def get_interface_version():$/;"	m	class:Base
+get_name	Adapter.py	/^    def get_name(self):$/;"	m	class:Adapter
+get_object_path	Agent.py	/^    def get_object_path(self):$/;"	m	class:Agent
+get_object_path	BlueZInterface.py	/^    def get_object_path(self):$/;"	m	class:BlueZInterface
+get_properties	PropertiesBlueZInterface.py	/^    def get_properties(self):$/;"	m	class:PropertiesBlueZInterface
+get_session_path	obex/ObjectPush.py	/^    def get_session_path(self):$/;"	m	class:ObjectPush
+handle_signal	Adapter.py	/^    def handle_signal(self, handler, signal, **kwargs):$/;"	m	class:Adapter
+handle_signal	Headset.py	/^    def handle_signal(self, handler, signal, **kwargs):$/;"	m	class:Headset
+handle_signal	Manager.py	/^    def handle_signal(self, handler, signal, **kwargs):$/;"	m	class:Manager
+handle_signal	PropertiesBlueZInterface.py	/^    def handle_signal(self, handler, signal, **kwargs):$/;"	m	class:PropertiesBlueZInterface
+inspect	Agent.py	/^import inspect$/;"	i
+interface_version	BlueZInterface.py	/^    interface_version = None$/;"	v	class:BlueZInterface
+interface_version	obex/Base.py	/^    interface_version = None$/;"	v	class:Base
+isclass	obex/Agent.py	/^from inspect import isclass$/;"	i
+list_adapters	Manager.py	/^    def list_adapters(self):$/;"	m	class:Manager
+list_devices	Adapter.py	/^    def list_devices(self):$/;"	m	class:Adapter
+minidom	Device.py	/^import xml.dom.minidom$/;"	i
+object_path	obex/Base.py	/^    def object_path(self):$/;"	m	class:Base
+ok	Device.py	/^        def ok():$/;"	f	function:Device.connect
+ok	Device.py	/^        def ok():$/;"	f	function:Device.disconnect
+ok	Device.py	/^        def ok():$/;"	f	function:Device.pair
+on_interfaces_added	obex/Manager.py	/^            def on_interfaces_added(object_path, interfaces):$/;"	f	function:Manager.__init__
+on_interfaces_removed	obex/Manager.py	/^            def on_interfaces_removed(object_path, interfaces):$/;"	f	function:Manager.__init__
+on_register_failed	obex/AgentManager.py	/^        def on_register_failed(error):$/;"	f	function:AgentManager.register_agent
+on_registered	obex/AgentManager.py	/^        def on_registered():$/;"	f	function:AgentManager.register_agent
+on_session_created	obex/Client.py	/^        def on_session_created(session_path):$/;"	f	function:Client.create_session
+on_session_failed	obex/Client.py	/^        def on_session_failed(error):$/;"	f	function:Client.create_session
+on_session_remove_failed	obex/Client.py	/^        def on_session_remove_failed(error):$/;"	f	function:Client.remove_session
+on_session_removed	obex/Client.py	/^        def on_session_removed():$/;"	f	function:Client.remove_session
+on_tranfer_completed	obex/Manager.py	/^                    def on_tranfer_completed(_transfer):$/;"	f	function:Manager.__init__.on_interfaces_added
+on_tranfer_error	obex/Manager.py	/^                    def on_tranfer_error(_transfer, _msg):$/;"	f	function:Manager.__init__.on_interfaces_added
+on_transfer_error	obex/ObjectPush.py	/^        def on_transfer_error(error):$/;"	f	function:ObjectPush.send_file
+on_transfer_started	obex/ObjectPush.py	/^        def on_transfer_started(*params):$/;"	f	function:ObjectPush.send_file
+on_unregister_failed	obex/AgentManager.py	/^        def on_unregister_failed(error):$/;"	f	function:AgentManager.unregister_agent
+on_unregistered	obex/AgentManager.py	/^        def on_unregistered():$/;"	f	function:AgentManager.unregister_agent
+pair	Device.py	/^    def pair(self, reply_handler=None, error_handler=None):$/;"	m	class:Device
+parse_dbus_error	Adapter.py	/^from blueman.bluez.errors import raise_dbus_error, parse_dbus_error$/;"	i
+parse_dbus_error	Device.py	/^from blueman.bluez.errors import raise_dbus_error, parse_dbus_error$/;"	i
+parse_dbus_error	errors.py	/^def parse_dbus_error(exception):$/;"	f
+print_function	Adapter.py	/^from __future__ import print_function$/;"	i
+print_function	Agent.py	/^from __future__ import print_function$/;"	i
+print_function	AgentManager.py	/^from __future__ import print_function$/;"	i
+print_function	BlueZInterface.py	/^from __future__ import print_function$/;"	i
+print_function	Device.py	/^from __future__ import print_function$/;"	i
+print_function	Headset.py	/^from __future__ import print_function$/;"	i
+print_function	Manager.py	/^from __future__ import print_function$/;"	i
+print_function	Network.py	/^from __future__ import print_function$/;"	i
+print_function	NetworkServer.py	/^from __future__ import print_function$/;"	i
+print_function	PropertiesBlueZInterface.py	/^from __future__ import print_function$/;"	i
+print_function	__init__.py	/^from __future__ import print_function$/;"	i
+print_function	errors.py	/^from __future__ import print_function$/;"	i
+print_function	obex/Agent.py	/^from __future__ import print_function$/;"	i
+print_function	obex/AgentManager.py	/^from __future__ import print_function$/;"	i
+print_function	obex/Base.py	/^from __future__ import print_function$/;"	i
+print_function	obex/Client.py	/^from __future__ import print_function$/;"	i
+print_function	obex/Error.py	/^from __future__ import print_function$/;"	i
+print_function	obex/Manager.py	/^from __future__ import print_function$/;"	i
+print_function	obex/ObjectPush.py	/^from __future__ import print_function$/;"	i
+print_function	obex/Transfer.py	/^from __future__ import print_function$/;"	i
+print_function	obex/__init__.py	/^from __future__ import print_function$/;"	i
+raise_dbus_error	Adapter.py	/^from blueman.bluez.errors import raise_dbus_error, parse_dbus_error$/;"	i
+raise_dbus_error	AgentManager.py	/^from blueman.bluez.errors import raise_dbus_error$/;"	i
+raise_dbus_error	Device.py	/^from blueman.bluez.errors import raise_dbus_error, parse_dbus_error$/;"	i
+raise_dbus_error	Headset.py	/^from blueman.bluez.errors import raise_dbus_error$/;"	i
+raise_dbus_error	Manager.py	/^from blueman.bluez.errors import raise_dbus_error, DBusNoSuchAdapterError$/;"	i
+raise_dbus_error	Network.py	/^from blueman.bluez.errors import raise_dbus_error$/;"	i
+raise_dbus_error	NetworkServer.py	/^from blueman.bluez.errors import raise_dbus_error$/;"	i
+raise_dbus_error	PropertiesBlueZInterface.py	/^from blueman.bluez.errors import raise_dbus_error$/;"	i
+raise_dbus_error	errors.py	/^def raise_dbus_error(func):$/;"	f
+raise_dbus_error	obex/Base.py	/^from blueman.bluez.errors import raise_dbus_error, DBusServiceUnknownError$/;"	i
+raise_type_error	errors.py	/^def raise_type_error(instance, cls):$/;"	f
+register	NetworkServer.py	/^    def register(self, uuid, bridge):$/;"	m	class:NetworkServer
+register_agent	Adapter.py	/^    def register_agent(self, agent, capability=''):$/;"	m	class:Adapter
+register_agent	AgentManager.py	/^    def register_agent(self, agent, capability='', default=False):$/;"	m	class:AgentManager
+register_agent	obex/AgentManager.py	/^    def register_agent(self, agent_path):$/;"	m	class:AgentManager
+remove_device	Adapter.py	/^    def remove_device(self, device):$/;"	m	class:Adapter
+remove_session	obex/Client.py	/^    def remove_session(self, session_path):$/;"	m	class:Client
+reply	obex/Agent.py	/^    def reply(self, reply):$/;"	m	class:Agent
+reply_handler_wrapper	Adapter.py	/^        def reply_handler_wrapper(obj_path):$/;"	f	function:Adapter.create_paired_device
+reply_handler_wrapper	Adapter.py	/^        def reply_handler_wrapper(path):$/;"	f	function:Adapter.create_device
+root	obex/Session.py	/^    def root(self):$/;"	m	class:Session
+send_file	obex/ObjectPush.py	/^    def send_file(self, file_path):$/;"	m	class:ObjectPush
+service	Agent.py	/^import dbus.service$/;"	i
+service	obex/Agent.py	/^import dbus.service$/;"	i
+set	PropertiesBlueZInterface.py	/^    def set(self, name, value):$/;"	m	class:PropertiesBlueZInterface
+set_name	Adapter.py	/^    def set_name(self, name):$/;"	m	class:Adapter
+start_discovery	Adapter.py	/^    def start_discovery(self):$/;"	m	class:Adapter
+stop_discovery	Adapter.py	/^    def stop_discovery(self):$/;"	m	class:Adapter
+unhandle_signal	Adapter.py	/^    def unhandle_signal(self, handler, signal, **kwargs):$/;"	m	class:Adapter
+unhandle_signal	Headset.py	/^    def unhandle_signal(self, handler, signal, **kwargs):$/;"	m	class:Headset
+unhandle_signal	Manager.py	/^    def unhandle_signal(self, handler, signal, **kwargs):$/;"	m	class:Manager
+unhandle_signal	PropertiesBlueZInterface.py	/^    def unhandle_signal(self, handler, signal, **kwargs):$/;"	m	class:PropertiesBlueZInterface
+unicode_literals	Adapter.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	Agent.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	AgentManager.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	BlueZInterface.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	Device.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	Headset.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	Manager.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	Network.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	NetworkServer.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	PropertiesBlueZInterface.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	__init__.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	errors.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	obex/Agent.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	obex/AgentManager.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	obex/Base.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	obex/Client.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	obex/Error.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	obex/Manager.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	obex/ObjectPush.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	obex/Transfer.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	obex/__init__.py	/^from __future__ import unicode_literals$/;"	i
+unregister	NetworkServer.py	/^    def unregister(self, uuid):$/;"	m	class:NetworkServer
+unregister_agent	Adapter.py	/^    def unregister_agent(self, agent):$/;"	m	class:Adapter
+unregister_agent	AgentManager.py	/^    def unregister_agent(self, agent):$/;"	m	class:AgentManager
+unregister_agent	obex/AgentManager.py	/^    def unregister_agent(self, agent_path):$/;"	m	class:AgentManager
+warp	errors.py	/^    def warp(*args, **kwargs):$/;"	f	function:raise_dbus_error
+wrapper	Adapter.py	/^                def wrapper(object_path, interfaces):$/;"	f	function:Adapter.handle_signal
+wrapper	Manager.py	/^                def wrapper(object_path, interfaces):$/;"	f	function:Manager.handle_signal
+wrapper	PropertiesBlueZInterface.py	/^                def wrapper(interface_name, changed_properties, invalidated_properties, **kwargs):$/;"	f	function:PropertiesBlueZInterface.handle_signal
+xml	Device.py	/^import xml.dom.minidom$/;"	i
